@@ -1,0 +1,221 @@
+
+/* styles.css */
+
+:root{
+    --bg:#0f1724;
+    --card:#0b1220;
+    --accent:#f59e0b;
+    --Mudo:#94a3b8;
+}
+*{
+    box-sizing: border-box;
+    font-family: Inter,ui-sans-serif,system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    margin:0;
+    background:linear-gradient(180deg,#071127 0%,#062033 100%);
+    color:#e6eef8;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: 18px;
+}
+h1{
+    font-size: 20px;
+    margin:0;
+}
+.Controles{
+    display: flex;
+    gap:8px;
+}
+
+button{
+    background: var(--accent);
+    border:none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color:#061323;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    max-width: 1000px;
+}
+
+.Borde{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap:12px;
+}
+
+.Informacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgba(255,255,255,0.03);
+    border-radius:8px;
+}
+
+.Arena{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-top: 10px;
+}
+
+.ArenaJugador{
+    background: rgba(255,255,255,0.02);
+    padding:12px;
+    border-radius: 10px;
+    min-height: 220px;
+}
+
+.ArenaTitulo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.Mano{
+    display: flex;
+    gap:8px;
+    flex-wrap: wrap;
+}
+
+.Carta .Miniatura{
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+    background: rgba(255,255,255,0.01);
+    border-radius:6px;
+    overflow: hidden;
+}
+.Carta .Miniatura img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.Carta .Miniatura{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.Carta h3{
+    margin:0;
+    font-size:16px;
+}
+
+.Estadistica{
+    font-size: 13px;
+    color: var(--Mudo);
+    margin-top: 6px;
+}
+.BarraHp{
+    height: 10px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 999px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+.LlenarHP{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg,#16a34a,#22c55e);
+}
+.Mudo{
+    color: var(--Mudo);
+    font-size: 13px;
+}
+
+.Carga{
+    background: rgba(0,0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    min-height: 44px;
+}
+
+.Selecteccion{
+    outline: 3px solid rgba(245,158,11,0.25);
+}
+
+.Desactivar{
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.Centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Tipos{
+    display:flex;
+    gap:6px;
+    margin-top: 6px;
+}
+
+.Tipo{
+    padding:4px 8px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.03);
+    font-size: 12px;
+}
+
+footer{
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 16px;
+    color: var(--Mudo);
+    font-size: 13px;
+}
+
+.ControlesFila{
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    margin-top: 12px;
+}
+
+
+.ControlesFila .Carga{
+    flex: 1;
+}
+
+.ControlesFila .BarraLateral{
+    width: 220px;
+    background: rgba(255,255,255,0.02);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+@media(max-width:720px){
+    .Arena{
+        grid-template-columns: 1fr;
+    }
+    .Carta{
+        width: 120px;
+    }
+    .ControlesFila{
+        flex-direction: column;
+    }
+}
+
+

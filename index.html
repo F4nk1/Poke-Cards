@@ -1,0 +1,50 @@
+
+<!-- index.html -->
+
+<!doctype hmtl>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Pokémon Cards Battle</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Pokémon Card Battle</h1>
+            <div class="Controles">
+                <button id="Btn_iniciar">Iniciar partida</button>
+                <button id="Btn_siguiente">Confirmar ataque</button>
+            </div>
+        </header>
+        <main>
+            <section class="Borde">
+                <div class="Informacion">
+                    <div class="Mudo">Turno<strong id="Indicar_turno"></strong></div>
+                    <div class="Mudo">Jugador: <strong>Tu</strong> Rival : <strong>PC</strong></div>
+                </div>
+                <div class="Arena">
+                    <div class="AreaJugador" id="Area-Jugador">
+                        <div class="AreaTitulo>"><strong>Tus cartas</strong><span class="Mudo">(elegi una carta para atacar)</span></div>
+                        <div class="Mano" id="ManoJugador"></div>
+                    </div>
+                    </div class="AreaJugador" id="Area-Rival">
+                        <div class="AreaTitulo"><strong>Cartas Rival</strong></div>
+                        <div class="Mano" id="ManoJugador"></div>
+                    </div>
+                </div>
+                <div class="ControlesFila">
+                    <div class="Carga" id="Carga">Pulsa "Iniciar partida" para repartir cartas.</div>
+                    <div class="BarraLateral">
+                        <div class="Mudo">Acciones</div>
+                        <div class="Mudo">Selecionado (Tu):<strong id="SeleccionJugador">--</strong> </div>
+                        <div class="Mudo">Selecionado (Rival):<strong id="SeleccionRival"></strong> </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>Autor: @F4nk1</footer>
+        <cripts src="js/app.js" defer></cripts>
+    </body>
+
+</html>
