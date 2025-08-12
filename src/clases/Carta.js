@@ -9,16 +9,16 @@ export default class Carta{
      * @param {string} opts.Nombre
      * @param {string} opts.Tipo
      * @param {number} opts.Hp
-     * @param {number} opts.Atack
+     * @param {number} opts.Ataque
      * @param {string} opts.Miniatura
      * @param {strign} opts.IconoTipo
      */
-    constructor({Id,Nombre,Tipo,Hp,Atack,HpMax=Hp,Miniatura,IconoTipo}){
+    constructor({Id,Nombre,Tipo,Hp,Ataque,HpMax=Hp,Miniatura,IconoTipo}){
         this.Id=Id;
         this.Nombre=Nombre;
         this.Tipo=Tipo;
         this.HpMax=HpMax??Hp;
-        this.Atack=Atack;
+        this.Ataque=Ataque;
         this.Hp=Hp;
         this.Miniatura=Miniatura;
         this.IconoTipo=IconoTipo;
@@ -39,7 +39,7 @@ export default class Carta{
             Id:this.Id,
             Nombre:this.Nombre,
             Hp:this.Hp,
-            Atack:this.Atack,
+            Ataque:this.Ataque,
             HpMax:this.HpMax,
             Miniatura:this.Miniatura,
             IconoTipo:this.IconoTipo,
@@ -50,7 +50,7 @@ export default class Carta{
             Id:this.Id,
             Nombre:this.Nombre,
             Hp:this.Hp,
-            Atack:this.Atack,
+            Ataque:this.Ataque,
             HpMax:this.HpMax,
             Miniatura:this.Miniatura,
             IconoTipo:this.IconoTipo,

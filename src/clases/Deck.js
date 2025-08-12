@@ -2,7 +2,7 @@
 import { Barajar as _Barajar } from "../utils/helpers";
 // clase Deck
 
-export default class Cubierta{
+export default class Deck{
     /**
      * @param {Arry<Carta>}Cartas 
      */
