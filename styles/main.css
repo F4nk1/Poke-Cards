@@ -179,6 +179,13 @@ main{
     font-size: 12px;
 }
 
+.c-Ataque{
+    font-size: 14px;
+    color: var(--accent);
+    font-weight: 600;
+    margin-top: 6px;
+}
+
 footer{
     width: 100%;
     max-width: 1000px;
@@ -218,4 +225,55 @@ footer{
     }
 }
 
+.c-Carta{
+    background: linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));
+    border-radius: 10px;
+    padding: 10px;
+    width: 160px;
+    box-shadow: 0 2px 8px rgba(2,6,23,0.6);
+    border: 1px solid rgba(255,255,255,0.03);
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+    cursor: pointer;
+    user-select: none;
+}
 
+
+.c-Carta:focus { outline: 3px solid rgba(245,158,11,0.25); }
+.c-Carta.c-disabled { opacity: 0.5; pointer-events: none; }
+.c-Carta.c-selected { box-shadow: 0 0 0 3px rgba(245,158,11,0.12); }
+
+/* Sprite */
+.c-Miniatura { height: 72px; display:flex; align-items:center; justify-content:center; overflow:hidden; border-radius:6px; background: rgba(255,255,255,0.01); }
+.c-Carta-img { width: 96px; height:72px; object-fit: contain; display:block; }
+/* fallback emoji */
+
+/* Text */
+.c-Carta-Nombre { margin: 0; font-size: 16px; }
+.c-Tipos { display:flex; gap:6px; }
+.c-Tipo { padding: 4px 8px; border-radius:999px; background: rgba(255,255,255,0.03); font-size:12px; }
+
+/* HP bar */
+.HP-bar { height: 10px; background: rgba(255,255,255,0.06); border-radius:999px; overflow:hidden; margin-top:6px; }
+.HP-fill { height: 100%; width: 100%; background: linear-gradient(90deg,#16a34a,#22c55e); }
+
+/* Type badges */
+.c-Tipos { display:flex; gap:6px; margin-top:4px; flex-wrap:wrap; }
+.c-Tipo {
+  display:flex;
+  align-items:center;
+  gap:6px;
+  padding:4px 8px;
+  border-radius:999px;
+  background: rgba(255,255,255,0.03);
+  font-size:12px;
+  color: #e6eef8;
+}
+.c-Tipo img {
+  width:18px;
+  height:18px;
+  display:block;
+  object-fit:contain;
+}
+.c-Tipo .type-label { line-height:1; font-size:12px; text-transform:capitalize; }

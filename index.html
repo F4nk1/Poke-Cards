@@ -1,13 +1,12 @@
-
 <!-- index.html -->
 
-<!doctype hmtl>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Pokémon Cards Battle</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
         <header>
@@ -25,12 +24,12 @@
                 </div>
                 <div class="Arena">
                     <div class="AreaJugador" id="Area-Jugador">
-                        <div class="AreaTitulo>"><strong>Tus cartas</strong><span class="Mudo">(elegi una carta para atacar)</span></div>
+                        <div class="AreaTitulo"><strong>Tus cartas</strong><span class="Mudo">(elige una carta para atacar)</span></div>
                         <div class="Mano" id="ManoJugador"></div>
                     </div>
-                    </div class="AreaJugador" id="Area-Rival">
+                    <div class="AreaJugador" id="Area-Rival">
                         <div class="AreaTitulo"><strong>Cartas Rival</strong></div>
-                        <div class="Mano" id="ManoJugador"></div>
+                        <div class="Mano" id="ManoRival"></div>
                     </div>
                 </div>
                 <div class="ControlesFila">
@@ -44,7 +43,7 @@
             </section>
         </main>
         <footer>Autor: @F4nk1</footer>
-        <cripts src="js/app.js" defer></cripts>
+        <script type="module" src="src/Main.js" defer></script>
     </body>
 
 </html>

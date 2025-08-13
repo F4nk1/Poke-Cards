@@ -1,41 +1,73 @@
 //clase Jugador
+import Deck from "./Deck.js";
 
-export default class Jugador{
+/**
+ * Clase Jugador mejorada para usar Deck y cartas activas.
+ */
+export default class Jugador {
     /**
      * @param {object} opts
      * @param {string} opts.Nombre
-     * @param {boolean} [opts.isAI=false]
+     * @param {Deck} opts.Mazo
+     * @param {boolean} opts.isAI
      */
-
-    constructor({Nombre='Red',isAI=false}={}){
-        this.Nombre=Nombre;
-        this.isAI=!!isAI;
-        /**@type {Array<Carta>} */
-        this.Mano=[];
-    }
-    CoMano(Cartas){
-        this.ManoO=Array.isArray(Cartas)?[...Cartas]:[];
+    constructor({ Nombre = 'Red', Mazo = new Deck(), isAI = false } = {}) {
+        this.Nombre = Nombre;
+        this.isAI = !!isAI;
+        /** @type {Deck} */
+        this.Mazo = Mazo;
+        /** @type {Array<Carta>} */
+        this.CartasActivas = this.Mazo.Dibujar(3); // Las 3 cartas en combate
     }
 
-    AnadirMano(Carta_Cartas){
-        if(Array.isArray(Carta_Cartas))this.Mano.push(...Carta_Cartas);
-        else this.Mano.push(Carta_Cartas);
+    /**
+     * Cambia las cartas activas en combate.
+     * @param {Array<Carta>} nuevasCartas
+     */
+    CambiarActivas(nuevasCartas) {
+        if (Array.isArray(nuevasCartas) && nuevasCartas.length === 3) {
+            this.CartasActivas = nuevasCartas;
+        }
     }
 
-    QuitarMano(index){
-        if(index<0||index>=this.Mano.length)return null;
-        return this.Mano.splice(index,1)[0];
-    }
-    
-    CartasVivas(){
-        return this.Mano.filter((c)=>c&&c.EstaVivo());
-    }
-
-    Continua(){
-        return this.CartasVivas().length>0;
+    /**
+     * Añade cartas al mazo.
+     * @param {Carta|Array<Carta>} cartas
+     */
+    AnadirAlMazo(cartas) {
+        this.Mazo.AnadirA(cartas);
     }
 
-    Tomar(){
-        return this.Mano.map((c)>=(typeof c.AJSON==='function'?c.AJSON():{...c}));
+    /**
+     * Roba cartas del mazo.
+     * @param {number} n
+     * @returns {Array<Carta>}
+     */
+    RobarDelMazo(n = 1) {
+        return this.Mazo.Dibujar(n);
+    }
+
+    /**
+     * Devuelve las cartas vivas en combate.
+     * @returns {Array<Carta>}
+     */
+    CartasVivas() {
+        return this.CartasActivas.filter(c => c && typeof c.EstaVivo === 'function' && c.EstaVivo());
+    }
+
+    /**
+     * Indica si el jugador puede continuar (al menos una carta viva en combate).
+     * @returns {boolean}
+     */
+    Continua() {
+        return this.CartasVivas().length > 0;
+    }
+
+    /**
+     * Devuelve todas las cartas del jugador (mazo + activas).
+     * @returns {Array<Carta>}
+     */
+    TodasLasCartas() {
+        return [...this.CartasActivas, ...this.Mazo.Arreglo()];
     }
 }
