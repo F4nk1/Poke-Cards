@@ -6,8 +6,8 @@ import Deck from "./clases/Deck.js";
 import Carta from "./clases/Carta.js";
 import { Barajar } from "./utils/helpers.js";
 
+let POKES = []; // Array to hold the Pokémon cards
 let Pokes=new Deck();
-const templateCarta = await CargaTemplate("templates/disenoCarta.html");
 async function CargaTemplate(url) {
     const res = await fetch(url);
     const txt = await res.text();
@@ -34,6 +34,7 @@ async function CargarGeneracion(gen){
     }));
 }
 async function main() {
+    const templateCarta = await CargaTemplate("templates/disenoCarta.html");
     if (templateCarta) document.body.appendChild(templateCarta);
 
     await CargarGeneracion(1);
@@ -47,7 +48,7 @@ async function main() {
 
     document.getElementById("Btn_iniciar").onclick = () => ui.iniciarJuego();
     document.getElementById("Btn_siguiente").onclick = () => {
-        const res = ui.turnoJugador();
+        ui.turnoJugador();
         ui.turnoRival();
     };
 }

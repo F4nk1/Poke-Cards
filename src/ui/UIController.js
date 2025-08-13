@@ -1,4 +1,4 @@
-import Game from "./clases/Game.js";
+import Game from "../clases/Game.js";
 
 export default class UIController {
     /**
@@ -63,12 +63,29 @@ export default class UIController {
      */
     renderizarCarta(carta, esJugador, idx) {
         const tpl = this.templateCarta.content.cloneNode(true);
-        tpl.querySelector(".c-Miniatura").src = carta.Miniatura || "";
-        tpl.querySelector(".c-Miniatura").alt = carta.Nombre;
-        tpl.querySelector("h3").textContent = carta.Nombre;
-        tpl.querySelector(".c-Ataque").textContent = carta.Ataque;
+        // Miniatura
+        tpl.querySelector(".c-Miniatura-poke").src = carta.Miniatura || "";
+        tpl.querySelector(".c-Miniatura-poke").alt = carta.Nombre;
+        // Nombre
+        tpl.querySelector(".Carta-Nombre").textContent = carta.Nombre;
+        // Tipos
+        const tiposDiv = tpl.querySelector(".Tipos");
+        tiposDiv.innerHTML = "";
+        if (Array.isArray(carta.Tipos)) {
+            carta.Tipos.forEach(tipo => {
+                const tipoSpan = document.createElement("span");
+                tipoSpan.className = "Tipo";
+                tipoSpan.textContent = tipo;
+                tiposDiv.appendChild(tipoSpan);
+            });
+        }
+        // Ataque
+        tpl.querySelector(".Ataque").textContent = carta.Ataque;
+        // HP
         tpl.querySelector(".HP").textContent = carta.Hp;
-        tpl.querySelector(".BarraHp .LlenoHp").style.width = `${(carta.Hp / carta.HpMax) * 100}%`;
+        // Barra HP
+        tpl.querySelector(".LlenoHp").style.width = `${(carta.Hp / carta.HpMax) * 100}%`;
+        // Selección
         const cartaDiv = tpl.querySelector(".Carta");
         cartaDiv.setAttribute("data-idx", idx);
         cartaDiv.setAttribute("data-jugador", esJugador ? "1" : "0");
