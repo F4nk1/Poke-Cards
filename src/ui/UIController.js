@@ -81,6 +81,8 @@ export default class UIController {
         }
         // Ataque
         tpl.querySelector(".Ataque").textContent = carta.Ataque;
+        // Defensa
+        tpl.querySelector(".Defensa").textContent = carta.Defensa;
         // HP
         tpl.querySelector(".HP").textContent = carta.Hp;
         // Barra HP

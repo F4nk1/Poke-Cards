@@ -9,15 +9,17 @@ export default class Carta{
      * @param {Array<string>} opts.Tipos
      * @param {number} opts.Hp
      * @param {number} opts.Ataque
+     * @param {number} opts.Defensa
      * @param {string} opts.Miniatura
      */
-    constructor({Id,Nombre,Tipos,Hp,Ataque,HpMax=Hp,Miniatura}){
+    constructor({Id,Nombre,Tipos,Hp,Ataque,HpMax=Hp,Defensa,Miniatura}){
         this.Id=Id;
         this.Nombre=Nombre;
         this.Tipos=Tipos;
         this.HpMax=HpMax??Hp;
         this.Ataque=Ataque;
         this.Hp=Hp;
+        this.Defensa=Defensa;
         this.Miniatura=Miniatura;
     }
     TomarDano(dmg){
@@ -38,6 +40,7 @@ export default class Carta{
             Tipos:this.Tipos,
             Hp:this.Hp,
             Ataque:this.Ataque,
+            Defensa:this.Defensa,
             HpMax:this.HpMax,
             Miniatura:this.Miniatura,
         })
@@ -49,6 +52,7 @@ export default class Carta{
             Tipos:this.Tipos,
             Hp:this.Hp,
             Ataque:this.Ataque,
+            Defensa:this.Defensa,
             HpMax:this.HpMax,
             Miniatura:this.Miniatura,
         }

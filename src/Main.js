@@ -27,9 +27,10 @@ async function CargarGeneracion(gen){
         Id: p.id,
         Nombre: p.name,
         Tipos: p.types,
-        Hp: p.hp,
-        Ataque: p.attack,
-        HpMax: p.hp,
+        Hp: p.stats.hp,
+        Ataque: p.stats.attack,
+        Defensa: p.stats.defense,
+        HpMax: p.stats.hp,
         Miniatura: p.localSprite, 
     }));
 }
