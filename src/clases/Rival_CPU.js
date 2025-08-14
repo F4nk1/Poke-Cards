@@ -78,6 +78,7 @@ export default class Rival_CPU extends Jugador {
     /**
      * Cambia cartas activas si alguna fue derrotada, robando del mazo si es posible.
      */
+    /*
     gestionarCartasActivas() {
         for (let i = 0; i < this.CartasActivas.length; i++) {
             if (!this.CartasActivas[i].EstaVivo()) {
@@ -85,7 +86,7 @@ export default class Rival_CPU extends Jugador {
                 if (nueva) this.CartasActivas[i] = nueva;
             }
         }
-    }
+    }*/
 
     /**
      * Decide si sanar alguna carta activa (ejemplo simple).

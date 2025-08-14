@@ -17,7 +17,7 @@ export default class Jugador {
         /** @type {Deck} */
         this.Mazo = Mazo;
         /** @type {Array<Carta>} */
-        this.CartasActivas = this.Mazo.Dibujar(3); // Las 3 cartas en combate
+        this.CartasActivas = this.Mazo.Pasar(3); // Las 3 cartas en combate
     }
 
     /**
@@ -45,6 +45,22 @@ export default class Jugador {
      */
     RobarDelMazo(n = 1) {
         return this.Mazo.Dibujar(n);
+    }
+    
+    /**
+     * Gestiona cartas activas, eliminando las muertas y usando las cartas que esten vivas.
+     */
+    gestionarCartasActivas() {
+        // Buscar índice de carta muerta
+        const idxMuerta = this.CartasActivas.findIndex(
+            c => !c || (typeof c.EstaVivo === 'function' && !c.EstaVivo())
+        );
+
+        // Si hay una carta muerta y aún hay cartas en el mazo
+        if (idxMuerta !== -1 && this.Mazo.Arreglo().length > 0) {
+            const nueva = this.Mazo.Pasar(1)[0] || null;
+            this.CartasActivas[idxMuerta] = nueva;
+        }
     }
 
     /**

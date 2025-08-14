@@ -27,8 +27,8 @@ export default class Game {
     iniciar() {
         this.jugador.Mazo.Barajar();
         this.rival.Mazo.Barajar();
-        this.jugador.CartasActivas = this.jugador.Mazo.Dibujar(3);
-        this.rival.CartasActivas = this.rival.Mazo.Dibujar(3);
+        this.jugador.CartasActivas = this.jugador.Mazo.Pasar(3);
+        this.rival.CartasActivas = this.rival.Mazo.Pasar(3);
         this.turnoActual = 1;
         this.finalizado = false;
         this.historial = [];
@@ -69,7 +69,7 @@ export default class Game {
         if (this.finalizado) return { exito: false, mensaje: "El juego ha terminado." };
         const resultado = this.rival.turno(this.jugador.CartasActivas);
         this.historial.push({ turno: this.turnoActual, jugador: "cpu", ...resultado });
-        this.jugador.gestionarCartasActivas?.();
+        this.jugador.gestionarCartasActivas();
         this.verificarFin();
         return resultado;
     }

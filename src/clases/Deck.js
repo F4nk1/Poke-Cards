@@ -43,7 +43,7 @@ export default class Deck {
      * @param {number} n
      * @returns {Array<Carta>}
      */
-    Dibujar(n = 1) {
+    Pasar(n = 1) {
         if (n <= 0) return [];
         return this.Cartas.splice(0, n);
     }
