@@ -23,7 +23,7 @@ export default class Carta{
         this.Miniatura=Miniatura;
     }
     TomarDano(dmg){
-        this.Hp=Math.max(0,Math.floor(this.Hp-dmg));
+        this.Hp=Math.max(0,Math.floor(this.Hp-Math.max(0,dmg-this.Defensa)));
         return this.Hp;
     }
     Sanar(cantidad){
