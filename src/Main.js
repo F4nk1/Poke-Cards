@@ -15,6 +15,7 @@ async function CargaTemplate(url) {
     tmp.innerHTML = txt;
     return tmp.querySelector('template');
 }
+
 function CargaCartas(Jugador) {
     const cartas = [...POKES].sort(() => Math.random() - 0.5);
     Jugador.Mazo.AnadirA(cartas.slice(0, 6));
@@ -34,6 +35,7 @@ async function CargarGeneracion(gen){
         Miniatura: p.localSprite, 
     }));
 }
+
 async function main() {
     const templateCarta = await CargaTemplate("templates/disenoCarta.html");
     if (templateCarta) document.body.appendChild(templateCarta);
@@ -53,6 +55,7 @@ async function main() {
         ui.turnoRival();
     };
 }
+
 document.addEventListener("DOMContentLoaded", main);
 
 
