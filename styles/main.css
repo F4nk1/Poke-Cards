@@ -91,10 +91,14 @@ main { margin-top: 12px; width:100%; max-width:1000px; }
 
 /* Arena (donde van las cartas) */
 .Arena{
-  display:grid;
+  display:flex;
   grid-template-columns: 1fr 1fr;
   gap:14px;
+  margin:auto;
   margin-top:10px;
+  flex-direction: column-reverse;
+  /*padding: 0 50px;*/
+  max-width: 550px;
 }
 
 /* Zona de jugador / rival */
@@ -155,12 +159,12 @@ footer{
 
 /* Card base */
 .Carta {
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  background: linear-gradient(180deg, rgba(242, 15, 15, 0.02), rgba(255,255,255,0.01));
   border-radius:10px;
   padding:10px;
   width:160px;
   box-shadow: 0 2px 8px var(--card-shadow);
-  border: 1px solid rgba(255,255,255,0.03);
+  border: 1px solid rgba(113, 28, 28, 0.03);
   display:flex;
   flex-direction:column;
   gap:6px;
@@ -168,12 +172,20 @@ footer{
   user-select:none;
   transition: transform .10s ease, box-shadow .12s ease;
 }
-.Carta:hover{ transform: translateY(-4px); }
-.Carta:focus{ outline: 3px solid rgba(245,158,11,0.25); }
+.Carta:hover{ 
+  transform: translateY(-4px); 
+}
+.Carta:focus{ 
+  outline: 3px solid rgba(245,158,11,0.25); 
+}
 
 /* Estado seleccionado / desactivado (tu JS usa clases como Selecteccion o Desactivar) */
-.Carta.Selecteccion, .Selecteccion { box-shadow: 0 0 0 3px rgba(245,158,11,0.12); }
-.Carta.Desactivar, .Desactivar { opacity:0.5; pointer-events:none; }
+.Carta.Selecteccion, .Selecteccion { 
+  box-shadow: 0 0 0 3px rgba(245,158,11,0.12); 
+}
+.Carta.Desactivar, .Desactivar { 
+  opacity:0.5; pointer-events:none; 
+}
 
 /* Miniatura / sprite */
 .c-Miniatura {
@@ -219,11 +231,23 @@ footer{
   gap:6px;
   color:var(--text);
 }
-.Tipo img{ width:18px; height:18px; object-fit:contain; display:block; }
+.Tipo img{ 
+  width:18px; 
+  height:18px; 
+  object-fit:contain; 
+  display:block; 
+}
 
 /* Estadísticas */
-.Estadistica{ font-size:13px; color:var(--muted); margin-top:6px; }
-.Ataque, .Defensa, .HP { color: var(--text); font-weight:700; }
+.Estadistica{ 
+  font-size:13px; 
+  color:var(--muted); 
+  margin-top:2px; 
+}
+.Ataque, .Defensa, .HP { 
+  color: var(--text); 
+  font-weight:700; 
+}
 
 /* Barra de HP */
 .BarraHp{
@@ -231,7 +255,7 @@ footer{
   background: rgba(255,255,255,0.06);
   border-radius:999px;
   overflow:hidden;
-  margin-top:8px;
+  margin-top:2px;
 }
 .LlenoHp{
   height:100%;
@@ -241,13 +265,28 @@ footer{
 }
 
 /* Etiqueta de ataque pequeño */
-.c-Ataque { font-size:14px; color:var(--accent); font-weight:600; margin-top:6px; }
+.c-Ataque { 
+  font-size:14px; 
+  color:var(--accent); 
+  font-weight:600; 
+  margin-top:6px; 
+}
 
 /* ---------- Utilidades (reutilizables) ---------- */
-.Centro { display:flex; align-items:center; justify-content:center; }
-.Mano .Carta { margin-bottom:4px; }
-.hidden { display:none !important; }
-.u-muted { color:var(--muted); }
+.Centro { 
+  display:flex; 
+  align-items:center; 
+  justify-content:center; 
+}
+.Mano .Carta { 
+  margin-bottom:4px; 
+}
+.hidden { 
+  display:none !important; 
+}
+.u-muted { 
+  color:var(--muted); 
+}
 
 /* ---------- Accesibilidad / foco keyboard ---------- */
 /* Mejor visibilidad cuando se navega con teclado */
@@ -262,10 +301,114 @@ footer{
 }
 
 /* ---------- Pequeños detalles visuales ---------- */
-.Carga { display:flex; align-items:center; gap:8px; }
-.Mano { padding:4px 0; }
+.Carga { 
+  display:flex; 
+  align-items:center; 
+  gap:8px; 
+}
+.Mano { 
+  padding:4px 0; 
+}
 
 /* Evitar que las imágenes "salten" */
-img { max-width:100%; height:auto; display:block; }
+img { 
+  max-width:100%; 
+  height:auto; 
+  display:block; 
+}
 
-/* ---------- Fin ---------- */
+
+/* --- Colores de los tipos de pokemon ---*/
+
+/* --- Colores oficiales de tipos Pokémon --- */
+/* Basado en Bulbapedia + juegos principales */
+
+.tipo-normal {
+  background: #A8A77A;
+  color: #ffffff;
+}
+
+.tipo-fire {
+  background: #EE8130;
+  color: #ffffff;
+}
+
+.tipo-water {
+  background: #6390F0;
+  color: #ffffff;
+}
+
+.tipo-electric {
+  background: #F7D02C;
+  color: #1f1f1f;
+}
+
+.tipo-grass {
+  background: #7AC74C;
+  color: #ffffff;
+}
+
+.tipo-ice {
+  background: #96D9D6;
+  color: #1f1f1f;
+}
+
+.tipo-fighting {
+  background: #C22E28;
+  color: #ffffff;
+}
+
+.tipo-poison {
+  background: #A33EA1;
+  color: #ffffff;
+}
+
+.tipo-ground {
+  background: #E2BF65;
+  color: #1f1f1f;
+}
+
+.tipo-flying {
+  background: #A98FF3;
+  color: #ffffff;
+}
+
+.tipo-psychic {
+  background: #F95587;
+  color: #ffffff;
+}
+
+.tipo-bug {
+  background: #A6B91A;
+  color: #ffffff;
+}
+
+.tipo-rock {
+  background: #B6A136;
+  color: #ffffff;
+}
+
+.tipo-ghost {
+  background: #735797;
+  color: #ffffff;
+}
+
+.tipo-dragon {
+  background: #6F35FC;
+  color: #ffffff;
+}
+
+.tipo-dark {
+  background: #705746;
+  color: #ffffff;
+}
+
+.tipo-steel {
+  background: #B7B7CE;
+  color: #1f1f1f;
+}
+
+.tipo-fairy {
+  background: #D685AD;
+  color: #ffffff;
+}

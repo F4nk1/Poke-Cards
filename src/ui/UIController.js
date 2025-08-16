@@ -74,7 +74,7 @@ export default class UIController {
         if (Array.isArray(carta.Tipos)) {
             carta.Tipos.forEach(tipo => {
                 const tipoSpan = document.createElement("span");
-                tipoSpan.className = "Tipo";
+                tipoSpan.className = `Tipo tipo-${tipo.toLowerCase()}`;
                 tipoSpan.textContent = tipo;
                 tiposDiv.appendChild(tipoSpan);
             });
