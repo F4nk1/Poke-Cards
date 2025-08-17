@@ -1,5 +1,26 @@
 import Game from "../clases/Game.js";
 
+const TIPOS_ES = {
+    fire: "FUEGO",
+    water: "AGUA",
+    grass: "PLANTA",
+    electric: "ELÉCTRICO",
+    ice: "HIELO",
+    fighting: "LUCHA",
+    poison: "VENENO",
+    ground: "TIERRA",
+    flying: "VOLADOR",
+    psychic: "PSÍQUICO",
+    bug: "BICHO",
+    rock: "ROCA",
+    ghost: "FANTASMA",
+    dragon: "DRAGÓN",
+    dark: "SINIESTRO",
+    steel: "ACERO",
+    fairy: "HADA",
+    normal: "NORMAL"
+};
+
 export default class UIController {
     /**
      * @param {Game} game
@@ -75,7 +96,14 @@ export default class UIController {
             carta.Tipos.forEach(tipo => {
                 const tipoSpan = document.createElement("span");
                 tipoSpan.className = `Tipo tipo-${tipo.toLowerCase()}`;
-                tipoSpan.textContent = tipo;
+
+                const icon = document.createElement("img");
+                icon.src = `public/icons/${tipo.toLowerCase()}.svg`;
+                icon.alt = tipo;
+                icon.classList.add("icono-tipo");
+
+                tipoSpan.appendChild(icon);
+                tipoSpan.appendChild(document.createTextNode(TIPOS_ES[tipo.toLowerCase()]));
                 tiposDiv.appendChild(tipoSpan);
             });
         }

@@ -323,92 +323,43 @@ img {
 /* --- Colores oficiales de tipos Pokémon --- */
 /* Basado en Bulbapedia + juegos principales */
 
-.tipo-normal {
-  background: #A8A77A;
-  color: #ffffff;
+.Tipos {
+  display: flex;
+  gap: 6px;
 }
 
-.tipo-fire {
-  background: #EE8130;
-  color: #ffffff;
+.Tipo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 6px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  font-size: 8px;
 }
 
-.tipo-water {
-  background: #6390F0;
-  color: #ffffff;
+.icono-tipo {
+  width: 16px;
+  height: 16px;
 }
 
-.tipo-electric {
-  background: #F7D02C;
-  color: #1f1f1f;
-}
-
-.tipo-grass {
-  background: #7AC74C;
-  color: #ffffff;
-}
-
-.tipo-ice {
-  background: #96D9D6;
-  color: #1f1f1f;
-}
-
-.tipo-fighting {
-  background: #C22E28;
-  color: #ffffff;
-}
-
-.tipo-poison {
-  background: #A33EA1;
-  color: #ffffff;
-}
-
-.tipo-ground {
-  background: #E2BF65;
-  color: #1f1f1f;
-}
-
-.tipo-flying {
-  background: #A98FF3;
-  color: #ffffff;
-}
-
-.tipo-psychic {
-  background: #F95587;
-  color: #ffffff;
-}
-
-.tipo-bug {
-  background: #A6B91A;
-  color: #ffffff;
-}
-
-.tipo-rock {
-  background: #B6A136;
-  color: #ffffff;
-}
-
-.tipo-ghost {
-  background: #735797;
-  color: #ffffff;
-}
-
-.tipo-dragon {
-  background: #6F35FC;
-  color: #ffffff;
-}
-
-.tipo-dark {
-  background: #705746;
-  color: #ffffff;
-}
-
-.tipo-steel {
-  background: #B7B7CE;
-  color: #1f1f1f;
-}
-
-.tipo-fairy {
-  background: #D685AD;
-  color: #ffffff;
-}
+/* Colores oficiales */
+.tipo-fire    { background-color: #EE8130; }
+.tipo-water   { background-color: #6390F0; }
+.tipo-grass   { background-color: #7AC74C; }
+.tipo-electric{ background-color: #F7D02C; color: black; }
+.tipo-ice     { background-color: #96D9D6; color: black; }
+.tipo-fighting{ background-color: #C22E28; }
+.tipo-poison  { background-color: #A33EA1; }
+.tipo-ground  { background-color: #E2BF65; color: black; }
+.tipo-flying  { background-color: #A98FF3; }
+.tipo-psychic { background-color: #F95587; }
+.tipo-bug     { background-color: #A6B91A; }
+.tipo-rock    { background-color: #B6A136; }
+.tipo-ghost   { background-color: #735797; }
+.tipo-dragon  { background-color: #6F35FC; }
+.tipo-dark    { background-color: #705746; }
+.tipo-steel   { background-color: #B7B7CE; color: black; }
+.tipo-fairy   { background-color: #D685AD; }
+.tipo-normal  { background-color: #A8A77A; }
