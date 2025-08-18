@@ -16,10 +16,40 @@ async function CargaTemplate(url) {
     return tmp.querySelector('template');
 }
 
-function CargaCartas(Jugador) {
+function CargaCartas(jugador) {
     const cartas = [...POKES].sort(() => Math.random() - 0.5);
-    Jugador.Mazo.AnadirA(cartas.slice(0, 6));
+    const seleccionadas = cartas.slice(0, 6).map(base => {
+        let habilidades = [];
+
+        if (base.Habilidades && base.Habilidades.length > 0) {
+            
+            const pool = [...base.Habilidades];
+
+            
+            pool.sort(() => Math.random() - 0.5);
+
+            
+            habilidades = pool.slice(0, Math.min(2, pool.length));
+        }
+
+        return new Carta({
+            Id: base.Id,
+            Nombre: base.Nombre,
+            Tipos: base.Tipos,
+            Hp: base.Hp,
+            Ataque: base.Ataque,
+            Habilidades: habilidades, 
+            Defensa: base.Defensa,
+            HpMax: base.HpMax,
+            Miniatura: base.Miniatura,
+            Descripcion: base.Descripcion,
+        });
+    });
+
+    jugador.Mazo.AnadirA(seleccionadas);
 }
+
+
 
 async function CargarGeneracion(gen){
     const res = await fetch(`data/gen${gen}.json`);
@@ -30,9 +60,11 @@ async function CargarGeneracion(gen){
         Tipos: p.types,
         Hp: p.stats.hp,
         Ataque: p.stats.attack,
+        Habilidades: p.abilities,
         Defensa: p.stats.defense,
         HpMax: p.stats.hp,
-        Miniatura: p.localSprite, 
+        Miniatura: p.localSprite,
+        Descripcion: p.description, 
     }));
 }
 
