@@ -1,14 +1,52 @@
+<!---
 <template id="Diseno_Carta">
     <div class="Carta" role="button" tabindex="0" aria-pressed="false">
+        <h3 class="Carta-Nombre"></h3>
         <div class="c-Miniatura">
             <img class="c-Miniatura-poke" alt="" width="96" height="72"/>
         </div>
-        <h3 class="Carta-Nombre"></h3>
         <div class="Tipos"><div class="Tipo"></div></div>
         <div class="Estadistica">Atk: <span class="Ataque">0</span></div>
         <div class="Estadistica">Def: <span class="Defensa">0</span></div>
         <div class="Estadistica">Mx HP: <span class="HP">0</span></div>
         <div class="BarraHp"><div class="LlenoHp"></div></div>
     </div>
-</template>
+</template>-->
 
+<template id="Diseno_Carta">
+    <div class="Carta" role="button" tabindex="0" aria-pressed="false">
+        <div class="Encabezado">
+            <h3 class="Carta-Nombre"></h3>
+            <div class="Tipos_HP">
+                <div class="Tipos"><div class="Tipo"></div></div>
+                <div class="HP">HP: <span class="Hp">0</span></div>
+            </div>
+        </div>
+            <div class="c-Miniatura">
+                <img class="c-Miniatura-poke" alt="" width="96" height="72"/>
+            </div>
+            <div class="Habilidades">
+                <div class="Habilidad">
+                    <div class="Habilidad-Header">
+                        <div class="Habilidad-Nombre">
+                            <span class="Habilidad-Icono"></span>
+                            <span class="Habilidad-Texto"></span>
+                        </div>
+                        <span class="Habilidad-Dano"></span>
+                    </div>
+                    <p class="Habilidad-Descripcion"></p>
+                </div>
+            </div>
+            <div class="Pie">
+                <div class="Estadistica">
+                    <div class="Debilidades">Debilidad: <div class="Debilidad"></div></div>
+                    <div class="Resistencias">Resistencia: <div class="Resistencia"></div></div>
+                </div>
+                <p class="Descripcion"></p>
+                <div class="Rareza">
+                    <span>©2024 Tu Juego</span>
+                    <span class="Rareza-Nivel"></span>
+                </div>
+            </div>
+    </div>
+</template>
