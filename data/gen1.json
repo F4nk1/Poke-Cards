@@ -13,8 +13,6 @@
       "special-defense": 55,
       "speed": 90
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
     "height": 9,
     "weight": 195,
     "base_experience": 62,
@@ -23,6 +21,7 @@
       "inner-focus",
       "magic-guard"
     ],
+    "description": "Duerme 18 horas al día y mientras lo hace es capaz de usar una serie de poderes extrasensoriales.",
     "localSprite": "assets/sprites/063_abra.png"
   },
   {
@@ -40,8 +39,6 @@
       "special-defense": 75,
       "speed": 130
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
     "height": 18,
     "weight": 590,
     "base_experience": 180,
@@ -50,6 +47,7 @@
       "pressure",
       "unnerve"
     ],
+    "description": "Se regeneró a partir de material genético de un dinosaurio encontrado en ámbar. Cuando vuela emite escandalosos alaridos.",
     "localSprite": "assets/sprites/142_aerodactyl.png"
   },
   {
@@ -66,8 +64,6 @@
       "special-defense": 95,
       "speed": 120
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
     "height": 15,
     "weight": 480,
     "base_experience": 225,
@@ -76,6 +72,7 @@
       "inner-focus",
       "magic-guard"
     ],
+    "description": "Sus neuronas se multiplican continuamente durante su vida. Por eso, siempre lo recuerda todo.",
     "localSprite": "assets/sprites/065_alakazam.png"
   },
   {
@@ -92,8 +89,6 @@
       "special-defense": 79,
       "speed": 80
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
     "height": 35,
     "weight": 650,
     "base_experience": 157,
@@ -102,6 +97,7 @@
       "shed-skin",
       "unnerve"
     ],
+    "description": "El dibujo que tiene en la panza aterroriza. Los rivales más débiles salen huyendo al verlo.",
     "localSprite": "assets/sprites/024_arbok.png"
   },
   {
@@ -118,8 +114,6 @@
       "special-defense": 80,
       "speed": 95
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
     "height": 19,
     "weight": 1550,
     "base_experience": 194,
@@ -128,6 +122,7 @@
       "flash-fire",
       "justified"
     ],
+    "description": "Un Pokémon muy admirado desde la antigüedad por su belleza. Corre ágilmente como si tuviera alas.",
     "localSprite": "assets/sprites/059_arcanine.png"
   },
   {
@@ -145,8 +140,6 @@
       "special-defense": 125,
       "speed": 85
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
     "height": 17,
     "weight": 554,
     "base_experience": 261,
@@ -154,6 +147,7 @@
       "pressure",
       "snow-cloak"
     ],
+    "description": "Legendario Pokémon pájaro capaz de generar ventiscas congelando la humedad del aire.",
     "localSprite": "assets/sprites/144_articuno.png"
   },
   {
@@ -171,8 +165,6 @@
       "special-defense": 80,
       "speed": 75
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
     "height": 10,
     "weight": 295,
     "base_experience": 178,
@@ -180,6 +172,7 @@
       "swarm",
       "sniper"
     ],
+    "description": "Tiene 3 aguijones venenosos en sus patas y cola. Suelen pinchar a sus enemigos repetidas veces.",
     "localSprite": "assets/sprites/015_beedrill.png"
   },
   {
@@ -197,8 +190,6 @@
       "special-defense": 30,
       "speed": 40
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
     "height": 7,
     "weight": 40,
     "base_experience": 60,
@@ -206,6 +197,7 @@
       "chlorophyll",
       "gluttony"
     ],
+    "description": "Aunque su cuerpo es extremadamente delgado, es muy rápido a la hora de capturar sus presas.",
     "localSprite": "assets/sprites/069_bellsprout.png"
   },
   {
@@ -222,8 +214,6 @@
       "special-defense": 105,
       "speed": 78
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
     "height": 16,
     "weight": 855,
     "base_experience": 239,
@@ -231,6 +221,7 @@
       "torrent",
       "rain-dish"
     ],
+    "description": "Para acabar con su enemigo, lo aplasta con el peso de su cuerpo. En momentos de apuro, se esconde en el caparazón.",
     "localSprite": "assets/sprites/009_blastoise.png"
   },
   {
@@ -248,8 +239,6 @@
       "special-defense": 65,
       "speed": 45
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
     "height": 7,
     "weight": 69,
     "base_experience": 64,
@@ -257,6 +246,7 @@
       "overgrow",
       "chlorophyll"
     ],
+    "description": "Una rara semilla le fue plantada en el lomo al nacer. La planta brota y crece con este Pokémon.",
     "localSprite": "assets/sprites/001_bulbasaur.png"
   },
   {
@@ -274,8 +264,6 @@
       "special-defense": 80,
       "speed": 70
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
     "height": 11,
     "weight": 320,
     "base_experience": 178,
@@ -283,6 +271,7 @@
       "compound-eyes",
       "tinted-lens"
     ],
+    "description": "Adora el néctar de las flores. Puede localizar hasta las más pequeñas cantidades de polen.",
     "localSprite": "assets/sprites/012_butterfree.png"
   },
   {
@@ -299,8 +288,6 @@
       "special-defense": 20,
       "speed": 45
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
     "height": 3,
     "weight": 29,
     "base_experience": 39,
@@ -308,6 +295,7 @@
       "shield-dust",
       "run-away"
     ],
+    "description": "Para protegerse despide un hedor horrible de sus antenas, con el que repele a sus enemigos.",
     "localSprite": "assets/sprites/010_caterpie.png"
   },
   {
@@ -324,8 +312,6 @@
       "special-defense": 105,
       "speed": 50
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
     "height": 11,
     "weight": 346,
     "base_experience": 395,
@@ -334,6 +320,7 @@
       "serene-grace",
       "healer"
     ],
+    "description": "Se dice que reparte felicidad. Se caracteriza por su compasión y reparte sus huevos entre la gente herida.",
     "localSprite": "assets/sprites/113_chansey.png"
   },
   {
@@ -351,8 +338,6 @@
       "special-defense": 85,
       "speed": 100
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
     "height": 17,
     "weight": 905,
     "base_experience": 240,
@@ -360,6 +345,7 @@
       "blaze",
       "solar-power"
     ],
+    "description": "Cuando lanza una descarga de fuego supercaliente, la roja llama de su cola brilla más intensamente.",
     "localSprite": "assets/sprites/006_charizard.png"
   },
   {
@@ -376,8 +362,6 @@
       "special-defense": 50,
       "speed": 65
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
     "height": 6,
     "weight": 85,
     "base_experience": 62,
@@ -385,6 +369,7 @@
       "blaze",
       "solar-power"
     ],
+    "description": "La llama de su cola indica la fuerza vital de Charmander. Será brillante si está sano.",
     "localSprite": "assets/sprites/004_charmander.png"
   },
   {
@@ -401,8 +386,6 @@
       "special-defense": 65,
       "speed": 80
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
     "height": 11,
     "weight": 190,
     "base_experience": 142,
@@ -410,6 +393,7 @@
       "blaze",
       "solar-power"
     ],
+    "description": "Suele usar la cola para derribar a su rival. Cuando lo tira, se vale de sus afiladas garras para acabar con él.",
     "localSprite": "assets/sprites/005_charmeleon.png"
   },
   {
@@ -426,8 +410,6 @@
       "special-defense": 90,
       "speed": 60
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
     "height": 13,
     "weight": 400,
     "base_experience": 217,
@@ -436,6 +418,7 @@
       "magic-guard",
       "unaware"
     ],
+    "description": "Su oído es tan agudo que puede oír una aguja caer a 1 km. Vive en montañas solitarias.",
     "localSprite": "assets/sprites/036_clefable.png"
   },
   {
@@ -452,8 +435,6 @@
       "special-defense": 65,
       "speed": 35
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
     "height": 6,
     "weight": 75,
     "base_experience": 113,
@@ -462,6 +443,7 @@
       "magic-guard",
       "friend-guard"
     ],
+    "description": "Se dice que la felicidad llegará a quien vea a un grupo de Clefairy bailando a la luz de la luna llena.",
     "localSprite": "assets/sprites/035_clefairy.png"
   },
   {
@@ -479,8 +461,6 @@
       "special-defense": 45,
       "speed": 70
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
     "height": 15,
     "weight": 1325,
     "base_experience": 184,
@@ -489,6 +469,7 @@
       "skill-link",
       "overcoat"
     ],
+    "description": "A los Cloyster que viven en las fuertes corrientes marinas les crecen largas y afiladas púas en la concha.",
     "localSprite": "assets/sprites/091_cloyster.png"
   },
   {
@@ -505,8 +486,6 @@
       "special-defense": 50,
       "speed": 35
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
     "height": 4,
     "weight": 65,
     "base_experience": 64,
@@ -515,6 +494,7 @@
       "lightning-rod",
       "battle-armor"
     ],
+    "description": "Lleva puesto el cráneo de su madre. Cuando se siente solo se pone a gritar muy fuerte.",
     "localSprite": "assets/sprites/104_cubone.png"
   },
   {
@@ -532,8 +512,6 @@
       "special-defense": 95,
       "speed": 70
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
     "height": 17,
     "weight": 1200,
     "base_experience": 166,
@@ -542,6 +520,7 @@
       "hydration",
       "ice-body"
     ],
+    "description": "Está recubierto de un luminoso pelaje blanco. Este Pokémon aumenta su actividad cuando bajan las temperaturas.",
     "localSprite": "assets/sprites/087_dewgong.png"
   },
   {
@@ -558,8 +537,6 @@
       "special-defense": 45,
       "speed": 95
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
     "height": 2,
     "weight": 8,
     "base_experience": 53,
@@ -568,6 +545,7 @@
       "arena-trap",
       "sand-force"
     ],
+    "description": "Vive un metro por debajo del suelo, donde se alimenta de raíces. También aparece en la superficie.",
     "localSprite": "assets/sprites/050_diglett.png"
   },
   {
@@ -584,8 +562,6 @@
       "special-defense": 48,
       "speed": 48
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
     "height": 3,
     "weight": 40,
     "base_experience": 101,
@@ -593,6 +569,7 @@
       "limber",
       "imposter"
     ],
+    "description": "Puede alterar por completo su estructura celular para emular cualquier objeto que vea.",
     "localSprite": "assets/sprites/132_ditto.png"
   },
   {
@@ -610,8 +587,6 @@
       "special-defense": 60,
       "speed": 110
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
     "height": 18,
     "weight": 852,
     "base_experience": 165,
@@ -620,6 +595,7 @@
       "early-bird",
       "tangled-feet"
     ],
+    "description": "Más vale no perder de vista ninguna de las tres cabezas. De lo contrario, el número de picotazos será enorme.",
     "localSprite": "assets/sprites/085_dodrio.png"
   },
   {
@@ -637,8 +613,6 @@
       "special-defense": 35,
       "speed": 75
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
     "height": 14,
     "weight": 392,
     "base_experience": 62,
@@ -647,6 +621,7 @@
       "early-bird",
       "tangled-feet"
     ],
+    "description": "Este Pokémon de dos cabezas es el resultado de una mutación. Cuando corre, puede alcanzar casi 100 km por hora.",
     "localSprite": "assets/sprites/084_doduo.png"
   },
   {
@@ -663,8 +638,6 @@
       "special-defense": 70,
       "speed": 70
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
     "height": 40,
     "weight": 165,
     "base_experience": 147,
@@ -672,6 +645,7 @@
       "shed-skin",
       "marvel-scale"
     ],
+    "description": "Sus cristalinos orbes parecen darle al Pokémon el poder de controlar el clima libremente.",
     "localSprite": "assets/sprites/148_dragonair.png"
   },
   {
@@ -689,8 +663,6 @@
       "special-defense": 100,
       "speed": 80
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
     "height": 22,
     "weight": 2100,
     "base_experience": 270,
@@ -698,6 +670,7 @@
       "inner-focus",
       "multiscale"
     ],
+    "description": "A pesar del tamaño que tiene y de lo pesado que es, puede volar. Es capaz de dar la vuelta al mundo en solo 16 horas.",
     "localSprite": "assets/sprites/149_dragonite.png"
   },
   {
@@ -714,8 +687,6 @@
       "special-defense": 50,
       "speed": 50
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
     "height": 18,
     "weight": 33,
     "base_experience": 60,
@@ -723,6 +694,7 @@
       "shed-skin",
       "marvel-scale"
     ],
+    "description": "Se le llama el Pokémon Espejismo porque son muy pocos los que lo han visto. Se encontró su muda.",
     "localSprite": "assets/sprites/147_dratini.png"
   },
   {
@@ -739,8 +711,6 @@
       "special-defense": 90,
       "speed": 42
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
     "height": 10,
     "weight": 324,
     "base_experience": 66,
@@ -749,6 +719,7 @@
       "forewarn",
       "inner-focus"
     ],
+    "description": "Adormece a sus enemigos y se come sus sueños. A veces se pone enfermo si come pesadillas.",
     "localSprite": "assets/sprites/096_drowzee.png"
   },
   {
@@ -765,8 +736,6 @@
       "special-defense": 70,
       "speed": 120
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
     "height": 7,
     "weight": 333,
     "base_experience": 149,
@@ -775,6 +744,7 @@
       "arena-trap",
       "sand-force"
     ],
+    "description": "En combate, cava la tierra, se esconde y sale de repente para golpear a su rival. Nunca se sabe por dónde puede aparecer.",
     "localSprite": "assets/sprites/051_dugtrio.png"
   },
   {
@@ -791,8 +761,6 @@
       "special-defense": 65,
       "speed": 55
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
     "height": 3,
     "weight": 65,
     "base_experience": 65,
@@ -801,6 +769,7 @@
       "adaptability",
       "anticipation"
     ],
+    "description": "Un extraño Pokémon que se adapta a los entornos más hostiles gracias a sus diferentes evoluciones.",
     "localSprite": "assets/sprites/133_eevee.png"
   },
   {
@@ -817,8 +786,6 @@
       "special-defense": 54,
       "speed": 55
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
     "height": 20,
     "weight": 69,
     "base_experience": 58,
@@ -827,6 +794,7 @@
       "shed-skin",
       "unnerve"
     ],
+    "description": "Cuanto más viejo, más crece este Pokémon. Por la noche, descansa en las ramas de los árboles.",
     "localSprite": "assets/sprites/023_ekans.png"
   },
   {
@@ -843,8 +811,6 @@
       "special-defense": 85,
       "speed": 105
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
     "height": 11,
     "weight": 300,
     "base_experience": 172,
@@ -852,6 +818,7 @@
       "static",
       "vital-spirit"
     ],
+    "description": "Por la superficie de su piel corre la electricidad. En la oscuridad, su cuerpo se torna blanquecino.",
     "localSprite": "assets/sprites/125_electabuzz.png"
   },
   {
@@ -868,8 +835,6 @@
       "special-defense": 80,
       "speed": 150
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
     "height": 12,
     "weight": 666,
     "base_experience": 172,
@@ -878,6 +843,7 @@
       "static",
       "aftermath"
     ],
+    "description": "Explotan a la mínima. Por eso se les tiene mucho miedo. Estos Pokémon reciben el mote de Bomba Ball.",
     "localSprite": "assets/sprites/101_electrode.png"
   },
   {
@@ -895,8 +861,6 @@
       "special-defense": 45,
       "speed": 40
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
     "height": 4,
     "weight": 25,
     "base_experience": 65,
@@ -904,6 +868,7 @@
       "chlorophyll",
       "harvest"
     ],
+    "description": "Estos seis huevos se comunican por telepatía. Si se separan, se pueden reunir rápidamente.",
     "localSprite": "assets/sprites/102_exeggcute.png"
   },
   {
@@ -921,8 +886,6 @@
       "special-defense": 75,
       "speed": 55
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
     "height": 20,
     "weight": 1200,
     "base_experience": 186,
@@ -930,6 +893,7 @@
       "chlorophyll",
       "harvest"
     ],
+    "description": "Sus tres cabezas piensan de forma independiente. Sin embargo, son amigas y no suelen discutir nunca.",
     "localSprite": "assets/sprites/103_exeggutor.png"
   },
   {
@@ -947,8 +911,6 @@
       "special-defense": 62,
       "speed": 60
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
     "height": 8,
     "weight": 150,
     "base_experience": 132,
@@ -957,6 +919,7 @@
       "inner-focus",
       "defiant"
     ],
+    "description": "El puerro que lleva es su mejor arma. Suele usarlo como espada para cortar cosas.",
     "localSprite": "assets/sprites/083_farfetchd.png"
   },
   {
@@ -974,8 +937,6 @@
       "special-defense": 61,
       "speed": 100
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
     "height": 12,
     "weight": 380,
     "base_experience": 155,
@@ -983,6 +944,7 @@
       "keen-eye",
       "sniper"
     ],
+    "description": "Con sus enormes y magníficas alas, puede seguir volando sin tener que aterrizar para descansar.",
     "localSprite": "assets/sprites/022_fearow.png"
   },
   {
@@ -999,8 +961,6 @@
       "special-defense": 110,
       "speed": 65
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
     "height": 9,
     "weight": 250,
     "base_experience": 184,
@@ -1008,6 +968,7 @@
       "flash-fire",
       "guts"
     ],
+    "description": "Almacena llamas en su cuerpo, que alcanza una temperatura de 900 °C antes de un combate.",
     "localSprite": "assets/sprites/136_flareon.png"
   },
   {
@@ -1025,14 +986,13 @@
       "special-defense": 35,
       "speed": 80
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
     "height": 13,
     "weight": 1,
     "base_experience": 62,
     "abilities": [
       "levitate"
     ],
+    "description": "Su etéreo cuerpo está hecho de gas. Puede envolver a un oponente de cualquier tamaño hasta ahogarlo.",
     "localSprite": "assets/sprites/092_gastly.png"
   },
   {
@@ -1050,14 +1010,13 @@
       "special-defense": 75,
       "speed": 110
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
     "height": 15,
     "weight": 405,
     "base_experience": 225,
     "abilities": [
       "cursed-body"
     ],
+    "description": "Se esconde entre las sombras. Se dice que donde Gengar acecha, la temperatura baja 5 °C.",
     "localSprite": "assets/sprites/094_gengar.png"
   },
   {
@@ -1075,8 +1034,6 @@
       "special-defense": 30,
       "speed": 20
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
     "height": 4,
     "weight": 200,
     "base_experience": 60,
@@ -1085,6 +1042,7 @@
       "sturdy",
       "sand-veil"
     ],
+    "description": "Aparecen en llanos y montañas. Como parecen rocas, la gente se tropieza con ellos o los pisa.",
     "localSprite": "assets/sprites/074_geodude.png"
   },
   {
@@ -1102,8 +1060,6 @@
       "special-defense": 75,
       "speed": 40
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
     "height": 8,
     "weight": 86,
     "base_experience": 138,
@@ -1111,6 +1067,7 @@
       "chlorophyll",
       "stench"
     ],
+    "description": "¡Huele bastante mal! De todas formas, una de cada mil personas aprecian su fétido olor.",
     "localSprite": "assets/sprites/044_gloom.png"
   },
   {
@@ -1128,8 +1085,6 @@
       "special-defense": 75,
       "speed": 90
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
     "height": 16,
     "weight": 550,
     "base_experience": 159,
@@ -1137,6 +1092,7 @@
       "inner-focus",
       "infiltrator"
     ],
+    "description": "Cuando ataque, seguirá chupando energía de su víctima, aunque pese tanto que ya no pueda volar.",
     "localSprite": "assets/sprites/042_golbat.png"
   },
   {
@@ -1153,8 +1109,6 @@
       "special-defense": 50,
       "speed": 63
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
     "height": 6,
     "weight": 150,
     "base_experience": 64,
@@ -1163,6 +1117,7 @@
       "water-veil",
       "lightning-rod"
     ],
+    "description": "Nada a una velocidad de cinco nudos. Si siente peligro, golpea con su afilado cuerno.",
     "localSprite": "assets/sprites/118_goldeen.png"
   },
   {
@@ -1179,8 +1134,6 @@
       "special-defense": 80,
       "speed": 85
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
     "height": 17,
     "weight": 766,
     "base_experience": 175,
@@ -1189,6 +1142,7 @@
       "cloud-nine",
       "swift-swim"
     ],
+    "description": "Aparece en ríos al anochecer. Puede usar poderes telequinéticos si su frente brilla misteriosamente.",
     "localSprite": "assets/sprites/055_golduck.png"
   },
   {
@@ -1206,8 +1160,6 @@
       "special-defense": 65,
       "speed": 45
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
     "height": 14,
     "weight": 3000,
     "base_experience": 223,
@@ -1216,6 +1168,7 @@
       "sturdy",
       "sand-veil"
     ],
+    "description": "Se lanza montaña abajo y deja un surco desde la cima hasta el pie. Es mejor mantenerse alejado.",
     "localSprite": "assets/sprites/076_golem.png"
   },
   {
@@ -1233,8 +1186,6 @@
       "special-defense": 45,
       "speed": 35
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
     "height": 10,
     "weight": 1050,
     "base_experience": 137,
@@ -1243,6 +1194,7 @@
       "sturdy",
       "sand-veil"
     ],
+    "description": "De naturaleza descuidada y libre, no le importa dañarse cuando baja rodando montañas.",
     "localSprite": "assets/sprites/075_graveler.png"
   },
   {
@@ -1259,8 +1211,6 @@
       "special-defense": 50,
       "speed": 25
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
     "height": 9,
     "weight": 300,
     "base_experience": 65,
@@ -1269,6 +1219,7 @@
       "sticky-hold",
       "poison-touch"
     ],
+    "description": "Nace de lodo alterado al filtrarse en el agua los rayos X reflejados por la Luna. Se alimenta de sustancias desagradables.",
     "localSprite": "assets/sprites/088_grimer.png"
   },
   {
@@ -1285,8 +1236,6 @@
       "special-defense": 50,
       "speed": 60
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
     "height": 7,
     "weight": 190,
     "base_experience": 70,
@@ -1295,6 +1244,7 @@
       "flash-fire",
       "justified"
     ],
+    "description": "Es muy agradable y leal. Para ahuyentar al enemigo, se pone a ladrar y a dar bocados.",
     "localSprite": "assets/sprites/058_growlithe.png"
   },
   {
@@ -1312,8 +1262,6 @@
       "special-defense": 100,
       "speed": 81
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
     "height": 65,
     "weight": 2350,
     "base_experience": 189,
@@ -1321,6 +1269,7 @@
       "intimidate",
       "moxie"
     ],
+    "description": "En la literatura antigua se dice que un Gyarados rebosante de violencia arrasó un poblado.",
     "localSprite": "assets/sprites/130_gyarados.png"
   },
   {
@@ -1338,14 +1287,13 @@
       "special-defense": 55,
       "speed": 95
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
     "height": 16,
     "weight": 1,
     "base_experience": 142,
     "abilities": [
       "levitate"
     ],
+    "description": "Cuando tienes la sensación de que te están observando, seguro que es porque Haunter está cerca.",
     "localSprite": "assets/sprites/093_haunter.png"
   },
   {
@@ -1362,8 +1310,6 @@
       "special-defense": 110,
       "speed": 76
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
     "height": 14,
     "weight": 502,
     "base_experience": 159,
@@ -1372,6 +1318,7 @@
       "iron-fist",
       "inner-focus"
     ],
+    "description": "Los potentes golpes de sus brazos pueden pulverizar el hormigón. Descansa tras luchar tres minutos.",
     "localSprite": "assets/sprites/107_hitmonchan.png"
   },
   {
@@ -1388,8 +1335,6 @@
       "special-defense": 110,
       "speed": 87
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
     "height": 15,
     "weight": 498,
     "base_experience": 159,
@@ -1398,6 +1343,7 @@
       "reckless",
       "unburden"
     ],
+    "description": "Encoge y estira las patas a su antojo. Cuando las estira, es capaz de propinar una buena patada al enemigo.",
     "localSprite": "assets/sprites/106_hitmonlee.png"
   },
   {
@@ -1414,8 +1360,6 @@
       "special-defense": 25,
       "speed": 60
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
     "height": 4,
     "weight": 80,
     "base_experience": 59,
@@ -1424,6 +1368,7 @@
       "sniper",
       "damp"
     ],
+    "description": "Es famoso por derribar a bichos voladores lanzando tinta desde la superficie del agua.",
     "localSprite": "assets/sprites/116_horsea.png"
   },
   {
@@ -1440,8 +1385,6 @@
       "special-defense": 115,
       "speed": 67
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
     "height": 16,
     "weight": 756,
     "base_experience": 169,
@@ -1450,6 +1393,7 @@
       "forewarn",
       "inner-focus"
     ],
+    "description": "Lleva un péndulo en la mano. Una vez, hizo desaparecer a un niño al que había hipnotizado.",
     "localSprite": "assets/sprites/097_hypno.png"
   },
   {
@@ -1467,8 +1411,6 @@
       "special-defense": 80,
       "speed": 60
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
     "height": 10,
     "weight": 130,
     "base_experience": 142,
@@ -1476,6 +1418,7 @@
       "overgrow",
       "chlorophyll"
     ],
+    "description": "Este Pokémon tiene un bulbo en el lomo. Dicen que, al absorber nutrientes, el bulbo se transforma en una flor grande.",
     "localSprite": "assets/sprites/002_ivysaur.png"
   },
   {
@@ -1493,8 +1436,6 @@
       "special-defense": 25,
       "speed": 20
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
     "height": 5,
     "weight": 55,
     "base_experience": 95,
@@ -1503,6 +1444,7 @@
       "competitive",
       "friend-guard"
     ],
+    "description": "Cautiva con la mirada a su enemigo y hace que se quede profundamente dormido mientras entona una dulce melodía.",
     "localSprite": "assets/sprites/039_jigglypuff.png"
   },
   {
@@ -1519,8 +1461,6 @@
       "special-defense": 95,
       "speed": 130
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
     "height": 8,
     "weight": 245,
     "base_experience": 184,
@@ -1528,6 +1468,7 @@
       "volt-absorb",
       "quick-feet"
     ],
+    "description": "Todos los pelos de su cuerpo se ponen de punta si empieza a cargarse de electricidad.",
     "localSprite": "assets/sprites/135_jolteon.png"
   },
   {
@@ -1545,8 +1486,6 @@
       "special-defense": 95,
       "speed": 95
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
     "height": 14,
     "weight": 406,
     "base_experience": 159,
@@ -1555,6 +1494,7 @@
       "forewarn",
       "dry-skin"
     ],
+    "description": "Camina moviendo las caderas de forma llamativa. Puede hacer que la gente baile a su ritmo.",
     "localSprite": "assets/sprites/124_jynx.png"
   },
   {
@@ -1572,8 +1512,6 @@
       "special-defense": 45,
       "speed": 55
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
     "height": 5,
     "weight": 115,
     "base_experience": 71,
@@ -1582,6 +1520,7 @@
       "battle-armor",
       "weak-armor"
     ],
+    "description": "Se cree que habitó las playas hace 300 millones de años. Se protege con una dura concha.",
     "localSprite": "assets/sprites/140_kabuto.png"
   },
   {
@@ -1599,8 +1538,6 @@
       "special-defense": 70,
       "speed": 80
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
     "height": 13,
     "weight": 405,
     "base_experience": 173,
@@ -1609,6 +1546,7 @@
       "battle-armor",
       "weak-armor"
     ],
+    "description": "Repliega sus extremidades en el agua para hacerse más compacto, y mueve su concha para nadar rápido.",
     "localSprite": "assets/sprites/141_kabutops.png"
   },
   {
@@ -1625,8 +1563,6 @@
       "special-defense": 70,
       "speed": 105
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
     "height": 13,
     "weight": 565,
     "base_experience": 140,
@@ -1635,6 +1571,7 @@
       "inner-focus",
       "magic-guard"
     ],
+    "description": "Cuando utiliza su poder psíquico, emite poderosas ondas alfa que pueden destruir dispositivos.",
     "localSprite": "assets/sprites/064_kadabra.png"
   },
   {
@@ -1652,14 +1589,13 @@
       "special-defense": 25,
       "speed": 35
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
     "height": 6,
     "weight": 100,
     "base_experience": 72,
     "abilities": [
       "shed-skin"
     ],
+    "description": "Casi incapaz de moverse, este Pokémon solo puede endurecer su caparazón para protegerse.",
     "localSprite": "assets/sprites/014_kakuna.png"
   },
   {
@@ -1676,8 +1612,6 @@
       "special-defense": 80,
       "speed": 90
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
     "height": 22,
     "weight": 800,
     "base_experience": 172,
@@ -1686,6 +1620,7 @@
       "scrappy",
       "inner-focus"
     ],
+    "description": "Lleva a su cría en la bolsa de su panza. Solo deja que su cría salga a jugar cuando no siente peligro.",
     "localSprite": "assets/sprites/115_kangaskhan.png"
   },
   {
@@ -1702,8 +1637,6 @@
       "special-defense": 50,
       "speed": 75
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
     "height": 13,
     "weight": 600,
     "base_experience": 166,
@@ -1712,6 +1645,7 @@
       "shell-armor",
       "sheer-force"
     ],
+    "description": "La pinza tan grande que tiene posee una fuerza de 10 000 caballos de potencia. Pero, por su gran tamaño, cuesta moverla.",
     "localSprite": "assets/sprites/099_kingler.png"
   },
   {
@@ -1728,8 +1662,6 @@
       "special-defense": 45,
       "speed": 35
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
     "height": 6,
     "weight": 10,
     "base_experience": 68,
@@ -1738,6 +1670,7 @@
       "neutralizing-gas",
       "stench"
     ],
+    "description": "Tiene forma de globo y es muy ligero. Está compuesto por gases tóxicos y apesta.",
     "localSprite": "assets/sprites/109_koffing.png"
   },
   {
@@ -1754,8 +1687,6 @@
       "special-defense": 25,
       "speed": 50
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
     "height": 4,
     "weight": 65,
     "base_experience": 65,
@@ -1764,6 +1695,7 @@
       "shell-armor",
       "sheer-force"
     ],
+    "description": "Ante el peligro, se camufla con las burbujas que desprende su boca, para parecer más grande.",
     "localSprite": "assets/sprites/098_krabby.png"
   },
   {
@@ -1781,8 +1713,6 @@
       "special-defense": 95,
       "speed": 60
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
     "height": 25,
     "weight": 2200,
     "base_experience": 187,
@@ -1791,6 +1721,7 @@
       "shell-armor",
       "hydration"
     ],
+    "description": "Son buenos de corazón. Muchos fueron capturados por ser tan pacíficos. Ahora hay muchos menos.",
     "localSprite": "assets/sprites/131_lapras.png"
   },
   {
@@ -1807,8 +1738,6 @@
       "special-defense": 75,
       "speed": 30
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
     "height": 12,
     "weight": 655,
     "base_experience": 77,
@@ -1817,6 +1746,7 @@
       "oblivious",
       "cloud-nine"
     ],
+    "description": "Su larga lengua, recubierta de saliva pegajosa, se pega a todo, por lo que es muy útil.",
     "localSprite": "assets/sprites/108_lickitung.png"
   },
   {
@@ -1833,8 +1763,6 @@
       "special-defense": 85,
       "speed": 55
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
     "height": 16,
     "weight": 1300,
     "base_experience": 227,
@@ -1843,6 +1771,7 @@
       "no-guard",
       "steadfast"
     ],
+    "description": "Tiene cuatro brazos tan bien desarrollados que puede dar una serie de 1000 puñetazos en cuestión de dos segundos.",
     "localSprite": "assets/sprites/068_machamp.png"
   },
   {
@@ -1859,8 +1788,6 @@
       "special-defense": 60,
       "speed": 45
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
     "height": 15,
     "weight": 705,
     "base_experience": 142,
@@ -1869,6 +1796,7 @@
       "no-guard",
       "steadfast"
     ],
+    "description": "Su musculoso cuerpo es tan fuerte que usa un cinto antifuerza para controlar sus movimientos.",
     "localSprite": "assets/sprites/067_machoke.png"
   },
   {
@@ -1885,8 +1813,6 @@
       "special-defense": 35,
       "speed": 35
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
     "height": 8,
     "weight": 195,
     "base_experience": 61,
@@ -1895,6 +1821,7 @@
       "no-guard",
       "steadfast"
     ],
+    "description": "Levanta un Graveler para mantener sus músculos en forma. Domina todas las artes marciales.",
     "localSprite": "assets/sprites/066_machop.png"
   },
   {
@@ -1911,8 +1838,6 @@
       "special-defense": 20,
       "speed": 80
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
     "height": 9,
     "weight": 100,
     "base_experience": 40,
@@ -1920,6 +1845,7 @@
       "swift-swim",
       "rattled"
     ],
+    "description": "No es precisamente rápido ni fuerte. Es el Pokémon más debilucho y simplón de todos los que hay.",
     "localSprite": "assets/sprites/129_magikarp.png"
   },
   {
@@ -1936,8 +1862,6 @@
       "special-defense": 85,
       "speed": 93
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
     "height": 13,
     "weight": 445,
     "base_experience": 173,
@@ -1945,6 +1869,7 @@
       "flame-body",
       "vital-spirit"
     ],
+    "description": "A este Pokémon se lo encontraron cerca de un volcán. Esta criatura ígnea tiene una temperatura corporal de unos 1200 °C.",
     "localSprite": "assets/sprites/126_magmar.png"
   },
   {
@@ -1962,8 +1887,6 @@
       "special-defense": 55,
       "speed": 45
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
     "height": 3,
     "weight": 60,
     "base_experience": 65,
@@ -1972,6 +1895,7 @@
       "sturdy",
       "analytic"
     ],
+    "description": "Las unidades a los lados de su cuerpo generan energía antigravitatoria para mantenerlo en el aire.",
     "localSprite": "assets/sprites/081_magnemite.png"
   },
   {
@@ -1989,8 +1913,6 @@
       "special-defense": 70,
       "speed": 70
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
     "height": 10,
     "weight": 600,
     "base_experience": 163,
@@ -1999,6 +1921,7 @@
       "sturdy",
       "analytic"
     ],
+    "description": "Lo constituye un grupo de Magnemite. Descarga potentes ondas magnéticas de alto voltaje.",
     "localSprite": "assets/sprites/082_magneton.png"
   },
   {
@@ -2015,8 +1938,6 @@
       "special-defense": 45,
       "speed": 70
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
     "height": 5,
     "weight": 280,
     "base_experience": 61,
@@ -2025,6 +1946,7 @@
       "anger-point",
       "defiant"
     ],
+    "description": "Es peligroso acercarse si se enfada sin razón aparente, ya que no distingue entre amigos y enemigos.",
     "localSprite": "assets/sprites/056_mankey.png"
   },
   {
@@ -2041,8 +1963,6 @@
       "special-defense": 80,
       "speed": 45
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
     "height": 10,
     "weight": 450,
     "base_experience": 149,
@@ -2051,6 +1971,7 @@
       "lightning-rod",
       "battle-armor"
     ],
+    "description": "Es pequeño y siempre ha sido muy débil. Cuando empezó a usar huesos, se volvió más violento.",
     "localSprite": "assets/sprites/105_marowak.png"
   },
   {
@@ -2067,8 +1988,6 @@
       "special-defense": 40,
       "speed": 90
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
     "height": 4,
     "weight": 42,
     "base_experience": 58,
@@ -2077,6 +1996,7 @@
       "technician",
       "unnerve"
     ],
+    "description": "Es de naturaleza nocturna. Le atraen los objetos brillantes.",
     "localSprite": "assets/sprites/052_meowth.png"
   },
   {
@@ -2093,14 +2013,13 @@
       "special-defense": 25,
       "speed": 30
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
     "height": 7,
     "weight": 99,
     "base_experience": 72,
     "abilities": [
       "shed-skin"
     ],
+    "description": "Su frágil cuerpo está recubierto de una coraza dura como el acero. Permanece quieto en su desarrollo.",
     "localSprite": "assets/sprites/011_metapod.png"
   },
   {
@@ -2117,14 +2036,13 @@
       "special-defense": 100,
       "speed": 100
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
     "height": 4,
     "weight": 40,
     "base_experience": 270,
     "abilities": [
       "synchronize"
     ],
+    "description": "Varios científicos lo consideran el antecesor de los Pokémon porque usa todo tipo de movimientos.",
     "localSprite": "assets/sprites/151_mew.png"
   },
   {
@@ -2141,8 +2059,6 @@
       "special-defense": 90,
       "speed": 130
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
     "height": 20,
     "weight": 1220,
     "base_experience": 306,
@@ -2150,6 +2066,7 @@
       "pressure",
       "unnerve"
     ],
+    "description": "Fue creado por un científico tras años de horribles experimentos de ingeniería genética.",
     "localSprite": "assets/sprites/150_mewtwo.png"
   },
   {
@@ -2167,8 +2084,6 @@
       "special-defense": 85,
       "speed": 90
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
     "height": 20,
     "weight": 600,
     "base_experience": 261,
@@ -2176,6 +2091,7 @@
       "pressure",
       "flame-body"
     ],
+    "description": "Es más conocido como el legendario pájaro de fuego. Con cada aleteo crea brillantes llamas.",
     "localSprite": "assets/sprites/146_moltres.png"
   },
   {
@@ -2193,8 +2109,6 @@
       "special-defense": 120,
       "speed": 90
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
     "height": 13,
     "weight": 545,
     "base_experience": 161,
@@ -2203,6 +2117,7 @@
       "filter",
       "technician"
     ],
+    "description": "Para repeler ataques, solidifica el aire y crea muros invisibles con emanaciones de sus dedos.",
     "localSprite": "assets/sprites/122_mr-mime.png"
   },
   {
@@ -2219,8 +2134,6 @@
       "special-defense": 100,
       "speed": 50
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
     "height": 12,
     "weight": 300,
     "base_experience": 175,
@@ -2229,6 +2142,7 @@
       "sticky-hold",
       "poison-touch"
     ],
+    "description": "Les encanta reunirse en zonas apestosas donde se acumula el lodo, haciendo su olor más insoportable.",
     "localSprite": "assets/sprites/089_muk.png"
   },
   {
@@ -2246,8 +2160,6 @@
       "special-defense": 75,
       "speed": 85
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
     "height": 14,
     "weight": 620,
     "base_experience": 227,
@@ -2256,6 +2168,7 @@
       "rivalry",
       "sheer-force"
     ],
+    "description": "Es fácil reconocerlo por tener una dura piel y un gran cuerno lleno de peligrosísimo veneno.",
     "localSprite": "assets/sprites/034_nidoking.png"
   },
   {
@@ -2273,8 +2186,6 @@
       "special-defense": 85,
       "speed": 76
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
     "height": 13,
     "weight": 600,
     "base_experience": 227,
@@ -2283,6 +2194,7 @@
       "rivalry",
       "sheer-force"
     ],
+    "description": "Usa su cuerpo duro y escamoso para sellar la entrada a su madriguera y protegerse de los depredadores.",
     "localSprite": "assets/sprites/031_nidoqueen.png"
   },
   {
@@ -2299,8 +2211,6 @@
       "special-defense": 40,
       "speed": 41
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
     "height": 4,
     "weight": 70,
     "base_experience": 55,
@@ -2309,6 +2219,7 @@
       "rivalry",
       "hustle"
     ],
+    "description": "Aunque pequeñas, sus venenosas púas son muy peligrosas. Tienen un cuerno más pequeño que los machos.",
     "localSprite": "assets/sprites/029_nidoran-f.png"
   },
   {
@@ -2325,8 +2236,6 @@
       "special-defense": 40,
       "speed": 50
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
     "height": 5,
     "weight": 90,
     "base_experience": 55,
@@ -2335,6 +2244,7 @@
       "rivalry",
       "hustle"
     ],
+    "description": "Saca las orejas por encima de la hierba para explorar el territorio. Le protege su cuerno venenoso.",
     "localSprite": "assets/sprites/032_nidoran-m.png"
   },
   {
@@ -2351,8 +2261,6 @@
       "special-defense": 55,
       "speed": 56
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
     "height": 8,
     "weight": 200,
     "base_experience": 128,
@@ -2361,6 +2269,7 @@
       "rivalry",
       "hustle"
     ],
+    "description": "Tiene un carácter afable. Emite ondas ultrasónicas para confundir al enemigo.",
     "localSprite": "assets/sprites/030_nidorina.png"
   },
   {
@@ -2377,8 +2286,6 @@
       "special-defense": 55,
       "speed": 65
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
     "height": 9,
     "weight": 195,
     "base_experience": 128,
@@ -2387,6 +2294,7 @@
       "rivalry",
       "hustle"
     ],
+    "description": "Levanta sus grandes orejas para vigilar. Si detecta algo, atacará de inmediato.",
     "localSprite": "assets/sprites/033_nidorino.png"
   },
   {
@@ -2403,8 +2311,6 @@
       "special-defense": 100,
       "speed": 100
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
     "height": 11,
     "weight": 199,
     "base_experience": 177,
@@ -2412,6 +2318,7 @@
       "flash-fire",
       "drought"
     ],
+    "description": "Tiene nueve colas y un pelaje de color dorado. Dicen que este Pokémon llega a vivir 1000 años.",
     "localSprite": "assets/sprites/038_ninetales.png"
   },
   {
@@ -2429,8 +2336,6 @@
       "special-defense": 65,
       "speed": 30
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
     "height": 5,
     "weight": 54,
     "base_experience": 64,
@@ -2438,6 +2343,7 @@
       "chlorophyll",
       "run-away"
     ],
+    "description": "Durante el día, se agazapa en el frío subsuelo huyendo del sol. La luz de la luna le hace crecer mucho.",
     "localSprite": "assets/sprites/043_oddish.png"
   },
   {
@@ -2455,8 +2361,6 @@
       "special-defense": 55,
       "speed": 35
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
     "height": 4,
     "weight": 75,
     "base_experience": 71,
@@ -2465,6 +2369,7 @@
       "shell-armor",
       "weak-armor"
     ],
+    "description": "Pokémon prehistórico que vivió en el océano primordial. Para nadar se valía de sus 10 tentáculos.",
     "localSprite": "assets/sprites/138_omanyte.png"
   },
   {
@@ -2482,8 +2387,6 @@
       "special-defense": 70,
       "speed": 55
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
     "height": 10,
     "weight": 350,
     "base_experience": 173,
@@ -2492,6 +2395,7 @@
       "shell-armor",
       "weak-armor"
     ],
+    "description": "Tiene los tentáculos tan desarrollados que le sirven de manos y pies. Con ellos atrapa a su presa y le da un bocado.",
     "localSprite": "assets/sprites/139_omastar.png"
   },
   {
@@ -2509,8 +2413,6 @@
       "special-defense": 45,
       "speed": 70
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
     "height": 88,
     "weight": 2100,
     "base_experience": 77,
@@ -2519,6 +2421,7 @@
       "sturdy",
       "weak-armor"
     ],
+    "description": "Cava a gran velocidad en busca de comida. Los túneles que deja son usados por los Diglett.",
     "localSprite": "assets/sprites/095_onix.png"
   },
   {
@@ -2536,8 +2439,6 @@
       "special-defense": 55,
       "speed": 25
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
     "height": 3,
     "weight": 54,
     "base_experience": 57,
@@ -2546,6 +2447,7 @@
       "dry-skin",
       "damp"
     ],
+    "description": "Lleva en el lomo dos setas parásitas llamadas tochukaso, que crecen con él.",
     "localSprite": "assets/sprites/046_paras.png"
   },
   {
@@ -2563,8 +2465,6 @@
       "special-defense": 80,
       "speed": 30
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
     "height": 10,
     "weight": 295,
     "base_experience": 142,
@@ -2573,6 +2473,7 @@
       "dry-skin",
       "damp"
     ],
+    "description": "Parasect está dominado por una seta parásita mayor que él. Dispersa esporas venenosas.",
     "localSprite": "assets/sprites/047_parasect.png"
   },
   {
@@ -2589,8 +2490,6 @@
       "special-defense": 65,
       "speed": 115
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
     "height": 10,
     "weight": 320,
     "base_experience": 154,
@@ -2599,6 +2498,7 @@
       "technician",
       "unnerve"
     ],
+    "description": "Aunque es muy admirado por el pelo, es difícil de entrenar como mascota, porque es un poco travieso.",
     "localSprite": "assets/sprites/053_persian.png"
   },
   {
@@ -2616,8 +2516,6 @@
       "special-defense": 70,
       "speed": 101
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
     "height": 15,
     "weight": 395,
     "base_experience": 216,
@@ -2626,6 +2524,7 @@
       "tangled-feet",
       "big-pecks"
     ],
+    "description": "Cuando caza, vuela muy deprisa a ras del agua y sorprende a inocentes presas como Magikarp.",
     "localSprite": "assets/sprites/018_pidgeot.png"
   },
   {
@@ -2643,8 +2542,6 @@
       "special-defense": 50,
       "speed": 71
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
     "height": 11,
     "weight": 300,
     "base_experience": 122,
@@ -2653,6 +2550,7 @@
       "tangled-feet",
       "big-pecks"
     ],
+    "description": "Tiene unas garras desarrolladas. Puede atrapar un Exeggcute y transportarlo desde una distancia de casi 100 km.",
     "localSprite": "assets/sprites/017_pidgeotto.png"
   },
   {
@@ -2670,8 +2568,6 @@
       "special-defense": 35,
       "speed": 56
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
     "height": 3,
     "weight": 18,
     "base_experience": 50,
@@ -2680,6 +2576,7 @@
       "tangled-feet",
       "big-pecks"
     ],
+    "description": "Muy común en bosques y selvas. Aletea al nivel del suelo para levantar la gravilla.",
     "localSprite": "assets/sprites/016_pidgey.png"
   },
   {
@@ -2696,8 +2593,6 @@
       "special-defense": 50,
       "speed": 90
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
     "height": 4,
     "weight": 60,
     "base_experience": 112,
@@ -2705,6 +2600,7 @@
       "static",
       "lightning-rod"
     ],
+    "description": "Levanta su cola para vigilar los alrededores. A veces, puede ser alcanzado por un rayo en esa pose.",
     "localSprite": "assets/sprites/025_pikachu.png"
   },
   {
@@ -2721,8 +2617,6 @@
       "special-defense": 70,
       "speed": 85
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
     "height": 15,
     "weight": 550,
     "base_experience": 175,
@@ -2731,6 +2625,7 @@
       "mold-breaker",
       "moxie"
     ],
+    "description": "Atrapa presas con sus pinzas hasta que las parte en dos. Lanza lejos lo que no puede quebrar.",
     "localSprite": "assets/sprites/127_pinsir.png"
   },
   {
@@ -2747,8 +2642,6 @@
       "special-defense": 40,
       "speed": 90
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
     "height": 6,
     "weight": 124,
     "base_experience": 60,
@@ -2757,6 +2650,7 @@
       "damp",
       "swift-swim"
     ],
+    "description": "Tiene una piel extraordinaria, fina y húmeda, que deja entrever las vísceras que tiene dispuestas en espiral.",
     "localSprite": "assets/sprites/060_poliwag.png"
   },
   {
@@ -2773,8 +2667,6 @@
       "special-defense": 50,
       "speed": 90
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
     "height": 10,
     "weight": 200,
     "base_experience": 135,
@@ -2783,6 +2675,7 @@
       "damp",
       "swift-swim"
     ],
+    "description": "Capaz de vivir dentro o fuera del agua. Fuera del agua suda para mantener baboso su cuerpo.",
     "localSprite": "assets/sprites/061_poliwhirl.png"
   },
   {
@@ -2800,8 +2693,6 @@
       "special-defense": 90,
       "speed": 70
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
     "height": 13,
     "weight": 540,
     "base_experience": 230,
@@ -2810,6 +2701,7 @@
       "damp",
       "swift-swim"
     ],
+    "description": "Tiene músculos muy desarrollados. Es capaz de nadar en el océano sin descanso.",
     "localSprite": "assets/sprites/062_poliwrath.png"
   },
   {
@@ -2826,8 +2718,6 @@
       "special-defense": 65,
       "speed": 90
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
     "height": 10,
     "weight": 300,
     "base_experience": 82,
@@ -2836,6 +2726,7 @@
       "flash-fire",
       "flame-body"
     ],
+    "description": "Cuando nace, apenas puede tenerse en pie. Pero va fortaleciendo las patas en cuanto empieza a galopar.",
     "localSprite": "assets/sprites/077_ponyta.png"
   },
   {
@@ -2852,8 +2743,6 @@
       "special-defense": 75,
       "speed": 40
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
     "height": 8,
     "weight": 365,
     "base_experience": 79,
@@ -2862,6 +2751,7 @@
       "download",
       "analytic"
     ],
+    "description": "Pokémon creado por el hombre tras muchas investigaciones. Sus habilidades son básicas.",
     "localSprite": "assets/sprites/137_porygon.png"
   },
   {
@@ -2878,8 +2768,6 @@
       "special-defense": 70,
       "speed": 95
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
     "height": 10,
     "weight": 320,
     "base_experience": 159,
@@ -2888,6 +2776,7 @@
       "anger-point",
       "defiant"
     ],
+    "description": "Solo se calma cuando nadie está cerca. Llegar a ver ese momento es realmente difícil.",
     "localSprite": "assets/sprites/057_primeape.png"
   },
   {
@@ -2904,8 +2793,6 @@
       "special-defense": 50,
       "speed": 55
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
     "height": 8,
     "weight": 196,
     "base_experience": 64,
@@ -2914,6 +2801,7 @@
       "cloud-nine",
       "swift-swim"
     ],
+    "description": "Padece continuamente dolores de cabeza. Cuando son muy fuertes, empieza a usar misteriosos poderes.",
     "localSprite": "assets/sprites/054_psyduck.png"
   },
   {
@@ -2930,8 +2818,6 @@
       "special-defense": 80,
       "speed": 110
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
     "height": 8,
     "weight": 300,
     "base_experience": 218,
@@ -2939,6 +2825,7 @@
       "static",
       "lightning-rod"
     ],
+    "description": "Cuando se carga de electricidad, sus músculos se tensan y se vuelve más agresivo de lo normal.",
     "localSprite": "assets/sprites/026_raichu.png"
   },
   {
@@ -2955,8 +2842,6 @@
       "special-defense": 80,
       "speed": 105
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
     "height": 17,
     "weight": 950,
     "base_experience": 175,
@@ -2965,6 +2850,7 @@
       "flash-fire",
       "flame-body"
     ],
+    "description": "Galopa a casi 240 km por hora. Su crin ardiente parece una flecha cuando corre.",
     "localSprite": "assets/sprites/078_rapidash.png"
   },
   {
@@ -2981,8 +2867,6 @@
       "special-defense": 70,
       "speed": 97
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
     "height": 7,
     "weight": 185,
     "base_experience": 145,
@@ -2991,6 +2875,7 @@
       "guts",
       "hustle"
     ],
+    "description": "Lima sus colmillos royendo objetos duros. Con ellos puede destruir incluso paredes de hormigón.",
     "localSprite": "assets/sprites/020_raticate.png"
   },
   {
@@ -3007,8 +2892,6 @@
       "special-defense": 35,
       "speed": 72
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
     "height": 3,
     "weight": 35,
     "base_experience": 51,
@@ -3017,6 +2900,7 @@
       "guts",
       "hustle"
     ],
+    "description": "Vive allí donde haya comida disponible. Busca todo el día, sin descanso, algo comestible.",
     "localSprite": "assets/sprites/019_rattata.png"
   },
   {
@@ -3034,8 +2918,6 @@
       "special-defense": 45,
       "speed": 40
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
     "height": 19,
     "weight": 1200,
     "base_experience": 170,
@@ -3044,6 +2926,7 @@
       "rock-head",
       "reckless"
     ],
+    "description": "La piel le sirve de escudo protector. Puede vivir en lava líquida a 2000 °C de temperatura.",
     "localSprite": "assets/sprites/112_rhydon.png"
   },
   {
@@ -3061,8 +2944,6 @@
       "special-defense": 30,
       "speed": 25
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
     "height": 10,
     "weight": 1150,
     "base_experience": 69,
@@ -3071,6 +2952,7 @@
       "rock-head",
       "reckless"
     ],
+    "description": "Es muy fuerte, pero no especialmente listo. Es capaz de derribar rascacielos usando Placaje varias veces.",
     "localSprite": "assets/sprites/111_rhyhorn.png"
   },
   {
@@ -3087,8 +2969,6 @@
       "special-defense": 30,
       "speed": 40
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
     "height": 6,
     "weight": 120,
     "base_experience": 60,
@@ -3096,6 +2976,7 @@
       "sand-veil",
       "sand-rush"
     ],
+    "description": "Este Pokémon permanece bajo tierra. Si se siente amenazado, se enrosca para defenderse.",
     "localSprite": "assets/sprites/027_sandshrew.png"
   },
   {
@@ -3112,8 +2993,6 @@
       "special-defense": 55,
       "speed": 65
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
     "height": 10,
     "weight": 295,
     "base_experience": 158,
@@ -3121,6 +3000,7 @@
       "sand-veil",
       "sand-rush"
     ],
+    "description": "Si cava a gran velocidad, puede que se le caigan las garras y púas. Vuelven a crecerle en un día.",
     "localSprite": "assets/sprites/028_sandslash.png"
   },
   {
@@ -3138,8 +3018,6 @@
       "special-defense": 80,
       "speed": 105
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
     "height": 15,
     "weight": 560,
     "base_experience": 100,
@@ -3148,6 +3026,7 @@
       "technician",
       "steadfast"
     ],
+    "description": "Destroza a su presa con las guadañas que tiene. No es común que use las alas para volar.",
     "localSprite": "assets/sprites/123_scyther.png"
   },
   {
@@ -3164,8 +3043,6 @@
       "special-defense": 45,
       "speed": 85
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
     "height": 12,
     "weight": 250,
     "base_experience": 154,
@@ -3174,6 +3051,7 @@
       "sniper",
       "damp"
     ],
+    "description": "Las afiladas púas que le recubren el cuerpo se le erizan y pueden causar el debilitamiento con solo tocarlo.",
     "localSprite": "assets/sprites/117_seadra.png"
   },
   {
@@ -3190,8 +3068,6 @@
       "special-defense": 80,
       "speed": 68
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
     "height": 13,
     "weight": 390,
     "base_experience": 158,
@@ -3200,6 +3076,7 @@
       "water-veil",
       "lightning-rod"
     ],
+    "description": "En otoño, cuando se reproducen, se les puede ver nadando con energía por ríos y arroyos.",
     "localSprite": "assets/sprites/119_seaking.png"
   },
   {
@@ -3216,8 +3093,6 @@
       "special-defense": 70,
       "speed": 45
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
     "height": 11,
     "weight": 900,
     "base_experience": 65,
@@ -3226,6 +3101,7 @@
       "hydration",
       "ice-body"
     ],
+    "description": "Este Pokémon vive en icebergs. Nada en el mar y usa el cuerno de su cabeza para romper el hielo.",
     "localSprite": "assets/sprites/086_seel.png"
   },
   {
@@ -3242,8 +3118,6 @@
       "special-defense": 25,
       "speed": 40
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
     "height": 3,
     "weight": 40,
     "base_experience": 61,
@@ -3252,6 +3126,7 @@
       "skill-link",
       "overcoat"
     ],
+    "description": "La concha lo protege de cualquier tipo de ataque. Solo es vulnerable cuando se abre.",
     "localSprite": "assets/sprites/090_shellder.png"
   },
   {
@@ -3269,8 +3144,6 @@
       "special-defense": 80,
       "speed": 30
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
     "height": 16,
     "weight": 785,
     "base_experience": 172,
@@ -3279,6 +3152,7 @@
       "own-tempo",
       "regenerator"
     ],
+    "description": "Tiene una cola tan apetecible, que el Shellder que va enganchado a ella no se soltará por nada del mundo.",
     "localSprite": "assets/sprites/080_slowbro.png"
   },
   {
@@ -3296,8 +3170,6 @@
       "special-defense": 40,
       "speed": 15
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
     "height": 12,
     "weight": 360,
     "base_experience": 63,
@@ -3306,6 +3178,7 @@
       "own-tempo",
       "regenerator"
     ],
+    "description": "Descansa ocioso junto al agua. Si algo muerde su cola, no lo notará en todo el día.",
     "localSprite": "assets/sprites/079_slowpoke.png"
   },
   {
@@ -3322,8 +3195,6 @@
       "special-defense": 110,
       "speed": 30
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
     "height": 21,
     "weight": 4600,
     "base_experience": 189,
@@ -3332,6 +3203,7 @@
       "thick-fat",
       "gluttony"
     ],
+    "description": "No se encuentra satisfecho hasta que no se come 400 kg de comida cada día. Cuando acaba de comer, se queda dormido.",
     "localSprite": "assets/sprites/143_snorlax.png"
   },
   {
@@ -3349,8 +3221,6 @@
       "special-defense": 31,
       "speed": 70
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
     "height": 3,
     "weight": 20,
     "base_experience": 52,
@@ -3358,6 +3228,7 @@
       "keen-eye",
       "sniper"
     ],
+    "description": "Muy protector de su territorio, mueve sus cortas alas sin descanso para lanzarse a toda velocidad.",
     "localSprite": "assets/sprites/021_spearow.png"
   },
   {
@@ -3374,8 +3245,6 @@
       "special-defense": 64,
       "speed": 43
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
     "height": 5,
     "weight": 90,
     "base_experience": 63,
@@ -3383,6 +3252,7 @@
       "torrent",
       "rain-dish"
     ],
+    "description": "Se protege con su caparazón y luego contraataca lanzando agua a presión cuando tiene oportunidad.",
     "localSprite": "assets/sprites/007_squirtle.png"
   },
   {
@@ -3400,8 +3270,6 @@
       "special-defense": 85,
       "speed": 115
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
     "height": 11,
     "weight": 800,
     "base_experience": 182,
@@ -3410,6 +3278,7 @@
       "natural-cure",
       "analytic"
     ],
+    "description": "Su núcleo central brilla con los colores del arcoíris. Para algunos tiene el valor de una gema.",
     "localSprite": "assets/sprites/121_starmie.png"
   },
   {
@@ -3426,8 +3295,6 @@
       "special-defense": 55,
       "speed": 85
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
     "height": 8,
     "weight": 345,
     "base_experience": 68,
@@ -3436,6 +3303,7 @@
       "natural-cure",
       "analytic"
     ],
+    "description": "Aunque sus brazos se rompan podrán regenerarse, siempre y cuando su núcleo siga intacto.",
     "localSprite": "assets/sprites/120_staryu.png"
   },
   {
@@ -3452,8 +3320,6 @@
       "special-defense": 40,
       "speed": 60
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
     "height": 10,
     "weight": 350,
     "base_experience": 87,
@@ -3462,6 +3328,7 @@
       "leaf-guard",
       "regenerator"
     ],
+    "description": "Se camufla con la multitud de lianas que envuelven su cuerpo y que no dejan de crecer a lo largo de toda su vida.",
     "localSprite": "assets/sprites/114_tangela.png"
   },
   {
@@ -3478,8 +3345,6 @@
       "special-defense": 70,
       "speed": 110
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
     "height": 14,
     "weight": 884,
     "base_experience": 172,
@@ -3488,6 +3353,7 @@
       "anger-point",
       "sheer-force"
     ],
+    "description": "Después de animarse a luchar fustigándose con sus tres colas, carga a toda velocidad.",
     "localSprite": "assets/sprites/128_tauros.png"
   },
   {
@@ -3505,8 +3371,6 @@
       "special-defense": 100,
       "speed": 70
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
     "height": 9,
     "weight": 455,
     "base_experience": 67,
@@ -3515,6 +3379,7 @@
       "liquid-ooze",
       "rain-dish"
     ],
+    "description": "Su cuerpo se compone casi en exclusiva de agua. Lanza extraños rayos con sus ojos cristalinos.",
     "localSprite": "assets/sprites/072_tentacool.png"
   },
   {
@@ -3532,8 +3397,6 @@
       "special-defense": 120,
       "speed": 100
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
     "height": 16,
     "weight": 550,
     "base_experience": 180,
@@ -3542,6 +3405,7 @@
       "liquid-ooze",
       "rain-dish"
     ],
+    "description": "Cuando caza, extiende los cortos tentáculos que tiene para atrapar e inmovilizar a su presa.",
     "localSprite": "assets/sprites/073_tentacruel.png"
   },
   {
@@ -3558,8 +3422,6 @@
       "special-defense": 95,
       "speed": 65
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
     "height": 10,
     "weight": 290,
     "base_experience": 184,
@@ -3567,6 +3429,7 @@
       "water-absorb",
       "hydration"
     ],
+    "description": "Prefiere las bellas costas. Con células parecidas al agua, podría fundirse en la misma.",
     "localSprite": "assets/sprites/134_vaporeon.png"
   },
   {
@@ -3584,8 +3447,6 @@
       "special-defense": 75,
       "speed": 90
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
     "height": 15,
     "weight": 125,
     "base_experience": 158,
@@ -3594,6 +3455,7 @@
       "tinted-lens",
       "wonder-skin"
     ],
+    "description": "Lanza unas escamas que paralizan a cualquiera. Quien las toque, no podrá ni ponerse de pie.",
     "localSprite": "assets/sprites/049_venomoth.png"
   },
   {
@@ -3611,8 +3473,6 @@
       "special-defense": 55,
       "speed": 45
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
     "height": 10,
     "weight": 300,
     "base_experience": 61,
@@ -3621,6 +3481,7 @@
       "tinted-lens",
       "run-away"
     ],
+    "description": "Sus grandes ojos son en realidad grupos de ojos diminutos. Por la noche se siente atraído por la luz.",
     "localSprite": "assets/sprites/048_venonat.png"
   },
   {
@@ -3638,8 +3499,6 @@
       "special-defense": 100,
       "speed": 80
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
     "height": 20,
     "weight": 1000,
     "base_experience": 236,
@@ -3647,6 +3506,7 @@
       "overgrow",
       "chlorophyll"
     ],
+    "description": "Llena su cuerpo de energía con los rayos solares que captan los anchos pétalos de su flor.",
     "localSprite": "assets/sprites/003_venusaur.png"
   },
   {
@@ -3664,8 +3524,6 @@
       "special-defense": 70,
       "speed": 70
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
     "height": 17,
     "weight": 155,
     "base_experience": 221,
@@ -3673,6 +3531,7 @@
       "chlorophyll",
       "gluttony"
     ],
+    "description": "Dicen que vive en grandes colonias en el interior de las junglas, aunque nadie ha podido verificarlo.",
     "localSprite": "assets/sprites/071_victreebel.png"
   },
   {
@@ -3690,8 +3549,6 @@
       "special-defense": 90,
       "speed": 50
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
     "height": 12,
     "weight": 186,
     "base_experience": 221,
@@ -3699,6 +3556,7 @@
       "chlorophyll",
       "effect-spore"
     ],
+    "description": "Cuanto mayores son sus pétalos, más tóxico es su polen. Le pesa la cabeza y le cuesta mantenerla erguida.",
     "localSprite": "assets/sprites/045_vileplume.png"
   },
   {
@@ -3715,8 +3573,6 @@
       "special-defense": 55,
       "speed": 100
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
     "height": 5,
     "weight": 104,
     "base_experience": 66,
@@ -3725,6 +3581,7 @@
       "static",
       "aftermath"
     ],
+    "description": "Fue descubierto cuando se crearon las Poké Balls. Se dice que tiene algo que ver con ellas.",
     "localSprite": "assets/sprites/100_voltorb.png"
   },
   {
@@ -3741,8 +3598,6 @@
       "special-defense": 65,
       "speed": 65
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
     "height": 6,
     "weight": 99,
     "base_experience": 60,
@@ -3750,6 +3605,7 @@
       "flash-fire",
       "drought"
     ],
+    "description": "Cuando nace solo tiene una cola, pero a medida que crece, esta se va dividiendo desde la punta.",
     "localSprite": "assets/sprites/037_vulpix.png"
   },
   {
@@ -3766,8 +3622,6 @@
       "special-defense": 80,
       "speed": 58
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
     "height": 10,
     "weight": 225,
     "base_experience": 142,
@@ -3775,6 +3629,7 @@
       "torrent",
       "rain-dish"
     ],
+    "description": "Si es golpeado, esconderá su cabeza. Aun así, su cola puede seguir golpeando.",
     "localSprite": "assets/sprites/008_wartortle.png"
   },
   {
@@ -3792,8 +3647,6 @@
       "special-defense": 20,
       "speed": 50
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
     "height": 3,
     "weight": 32,
     "base_experience": 39,
@@ -3801,6 +3654,7 @@
       "shield-dust",
       "run-away"
     ],
+    "description": "Suele habitar bosques y praderas. Tiene un afilado y venenoso aguijón de unos 5 cm encima de la cabeza.",
     "localSprite": "assets/sprites/013_weedle.png"
   },
   {
@@ -3818,8 +3672,6 @@
       "special-defense": 45,
       "speed": 55
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
     "height": 10,
     "weight": 64,
     "base_experience": 137,
@@ -3827,6 +3679,7 @@
       "chlorophyll",
       "gluttony"
     ],
+    "description": "Las hojas que tiene actúan como cuchillas en combate. Otra de sus armas es el corrosivo fluido que expulsa.",
     "localSprite": "assets/sprites/070_weepinbell.png"
   },
   {
@@ -3843,8 +3696,6 @@
       "special-defense": 70,
       "speed": 60
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
     "height": 12,
     "weight": 95,
     "base_experience": 172,
@@ -3853,6 +3704,7 @@
       "neutralizing-gas",
       "stench"
     ],
+    "description": "Si uno de los gemelos Koffing se infla, el otro se desinfla. Mezclan constantemente sus venenosos gases.",
     "localSprite": "assets/sprites/110_weezing.png"
   },
   {
@@ -3870,8 +3722,6 @@
       "special-defense": 50,
       "speed": 45
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
     "height": 10,
     "weight": 120,
     "base_experience": 196,
@@ -3880,6 +3730,7 @@
       "competitive",
       "frisk"
     ],
+    "description": "Su piel es tan suave que si dos de ellos se acurrucan juntos, no querrán separarse nunca.",
     "localSprite": "assets/sprites/040_wigglytuff.png"
   },
   {
@@ -3897,8 +3748,6 @@
       "special-defense": 90,
       "speed": 100
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
     "height": 16,
     "weight": 526,
     "base_experience": 261,
@@ -3906,6 +3755,7 @@
       "pressure",
       "static"
     ],
+    "description": "Es un legendario pájaro Pokémon. Dicen que aparece entre las nubes lanzando enormes rayos brillantes.",
     "localSprite": "assets/sprites/145_zapdos.png"
   },
   {
@@ -3923,8 +3773,6 @@
       "special-defense": 40,
       "speed": 55
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
-    "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
     "height": 8,
     "weight": 75,
     "base_experience": 49,
@@ -3932,6 +3780,7 @@
       "inner-focus",
       "infiltrator"
     ],
+    "description": "Aunque carezca de ojos, puede detectar obstáculos con las ondas ultrasónicas que emite su boca.",
     "localSprite": "assets/sprites/041_zubat.png"
   }
 ]
