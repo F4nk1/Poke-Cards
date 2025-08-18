@@ -8,7 +8,9 @@ const GEN = process.argv[2] || '1';
 const OUT_DIR = path.join(__dirname, '..', 'data');
 const OUT_FILE = path.join(OUT_DIR, `gen${GEN}.json`);
 
-function delay(ms) { return new Promise(res => setTimeout(res, ms)); }
+function delay(ms) { 
+  return new Promise(res => setTimeout(res, ms)); 
+}
 
 async function fetchJson(url) {
   const res = await fetch(url);
@@ -22,30 +24,38 @@ async function main() {
   const gen = await fetchJson(genUrl);
 
   // species contiene nombres de los pokémon de la generación
-  const species = gen.pokemon_species.map(s => s.name).sort((a,b) => a.localeCompare(b));
+  const species = gen.pokemon_species
+    .map(s => s.name)
+    .sort((a, b) => a.localeCompare(b));
   console.log(`Encontradas ${species.length} especies.`);
 
   const pokes = [];
-  const batchSize = 10;      // número de peticiones concurrentes (ajusta si necesitas)
-  const pauseBetweenBatches = 300; // ms de espera entre batches (reduce riesgo de rate-limit)
+  const batchSize = 10;       // número de peticiones concurrentes
+  const pauseBetweenBatches = 300; // ms de espera entre batches
 
   for (let i = 0; i < species.length; i += batchSize) {
     const batch = species.slice(i, i + batchSize);
     console.log(`Procesando ${i + 1}..${i + batch.length} de ${species.length}...`);
+
     const promises = batch.map(async name => {
       try {
         const j = await fetchJson(`https://pokeapi.co/api/v2/pokemon/${name}`);
+        const s = await fetchJson(j.species.url);
+
+        // descripción en español
+        const flavor = s.flavor_text_entries.find(f => f.language.name === "es");
+
         return {
           id: j.id,
           name: j.name,
           types: j.types.map(t => t.type.name),
           stats: Object.fromEntries(j.stats.map(s => [s.stat.name, s.base_stat])),
-          sprite: j.sprites.front_default,
-          artwork: j.sprites.other?.['official-artwork']?.front_default || j.sprites.front_default,
           height: j.height,
           weight: j.weight,
           base_experience: j.base_experience,
-          abilities: j.abilities.map(a => a.ability.name)
+          abilities: j.abilities.map(a => a.ability.name),
+          description: flavor?.flavor_text.replace(/\n|\f/g, ' ') || "",
+          localSprite: `assets/sprites/${String(j.id).padStart(3, '0')}_${j.name}.png`
         };
       } catch (err) {
         console.error('Error fetch pokemon', name, err.message);
