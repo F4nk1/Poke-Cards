@@ -9,18 +9,22 @@ export default class Carta{
      * @param {Array<string>} opts.Tipos
      * @param {number} opts.Hp
      * @param {number} opts.Ataque
+     * @param {Array<string>} opts.Habilidades
      * @param {number} opts.Defensa
      * @param {string} opts.Miniatura
+     * @param {string} opts.Descripcion
      */
-    constructor({Id,Nombre,Tipos,Hp,Ataque,HpMax=Hp,Defensa,Miniatura}){
+    constructor({Id,Nombre,Tipos,Hp,Ataque,Habilidades,HpMax=Hp,Defensa,Miniatura,Descripcion}){
         this.Id=Id;
         this.Nombre=Nombre;
         this.Tipos=Tipos;
         this.HpMax=HpMax??Hp;
         this.Ataque=Ataque;
+        this.Habilidades=Habilidades;
         this.Hp=Hp;
         this.Defensa=Defensa;
         this.Miniatura=Miniatura;
+        this.Descripcion=Descripcion;
     }
     TomarDano(dmg){
         this.Hp=Math.max(0,Math.floor(this.Hp-Math.max(0,dmg-this.Defensa)));
@@ -40,9 +44,11 @@ export default class Carta{
             Tipos:this.Tipos,
             Hp:this.Hp,
             Ataque:this.Ataque,
+            Habilidades:this.Habilidades,
             Defensa:this.Defensa,
             HpMax:this.HpMax,
             Miniatura:this.Miniatura,
+            Descripcion:this.Descripcion,
         })
     }
     AJSON(){
@@ -52,9 +58,11 @@ export default class Carta{
             Tipos:this.Tipos,
             Hp:this.Hp,
             Ataque:this.Ataque,
+            Habilidades:this.Habilidades,
             Defensa:this.Defensa,
             HpMax:this.HpMax,
             Miniatura:this.Miniatura,
+            Descripcion:this.Descripcion
         }
     }
 
@@ -81,9 +89,10 @@ export default class Carta{
      * Devuelve una descripción corta de la carta.
      * @returns {string}
      */
+    /**
     Descripcion() {
         return `${this.Nombre} [${this.Tipo}] HP:${this.Hp}/${this.HpMax} ATK:${this.Ataque}`;
-    }
+    }*/
 
     /**
      * Indica si la carta está en estado crítico (menos del 25% de vida).
