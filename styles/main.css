@@ -158,208 +158,560 @@ footer{
 */
 
 /* Card base */
+/* Extensión de tu styles/main.css existente */
+/* Añade esto al final de tu archivo main.css */
+
+/* ========== MEJORAS PARA CARTAS ESTILO POKÉMON ========== */
+
+/* Extensión de tu styles/main.css existente */
+/* Añade esto al final de tu archivo main.css */
+
+/* ========== MEJORAS PARA CARTAS ESTILO POKÉMON ========== */
+
+/* Redefinición de la carta base con estilo Pokémon */
 .Carta {
-  background: linear-gradient(180deg, rgba(242, 15, 15, 0.02), rgba(255,255,255,0.01));
-  border-radius:10px;
-  padding:10px;
-  width:160px;
-  box-shadow: 0 2px 8px var(--card-shadow);
-  border: 1px solid rgba(113, 28, 28, 0.03);
-  display:flex;
-  flex-direction:column;
-  gap:6px;
-  cursor:pointer;
-  user-select:none;
-  transition: transform .10s ease, box-shadow .12s ease;
-}
-.Carta:hover{ 
-  transform: translateY(-4px); 
-}
-.Carta:focus{ 
-  outline: 3px solid rgba(245,158,11,0.25); 
+  background: linear-gradient(180deg, #f5f5f5 0%, #e0e0e0 100%);
+  border-radius: 16px;
+  padding: 12px;
+  width: 240px;
+  min-height: 360px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  border: 3px solid #ffd700;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
-/* Estado seleccionado / desactivado (tu JS usa clases como Selecteccion o Desactivar) */
-.Carta.Selecteccion, .Selecteccion { 
-  box-shadow: 0 0 0 3px rgba(245,158,11,0.12); 
-}
-.Carta.Desactivar, .Desactivar { 
-  opacity:0.5; pointer-events:none; 
+.Carta:hover {
+  transform: scale(1.05) rotate(1deg);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
 }
 
-/* Miniatura / sprite */
-.c-Miniatura {
-  height:72px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  overflow:hidden;
-  border-radius:6px;
-  background: rgba(255,255,255,0.01);
-  margin-bottom:6px;
-  font-size:48px;
-  text-align:center;
-}
-.c-Miniatura-poke, .c-Miniatura img {
-  width:96px;
-  height:72px;
-  object-fit:contain;
-  display:block;
+.Carta:focus {
+  outline: 3px solid rgba(245, 158, 11, 0.5);
+  outline-offset: 2px;
 }
 
-/* Nombre y texto */
-.Carta-Nombre, .Carta h3 {
-  margin:0;
-  font-size:16px;
-  font-weight:600;
+/* Gradientes por tipo */
+.Carta.grass { background: linear-gradient(180deg, #66bb6a 0%, #4caf50 100%); }
+.Carta.fire { background: linear-gradient(180deg, #ef5350 0%, #f44336 100%); }
+.Carta.water { background: linear-gradient(180deg, #42a5f5 0%, #2196f3 100%); }
+.Carta.electric { background: linear-gradient(180deg, #ffeb3b 0%, #ffc107 100%); }
+.Carta.psychic { background: linear-gradient(180deg, #ab47bc 0%, #9c27b0 100%); }
+.Carta.fighting { background: linear-gradient(180deg, #ff5722 0%, #ff9800 100%); }
+.Carta.dark { background: linear-gradient(180deg, #616161 0%, #424242 100%); }
+.Carta.steel { background: linear-gradient(180deg, #78909c 0%, #607d8b 100%); }
+.Carta.fairy { background: linear-gradient(180deg, #ec407a 0%, #e91e63 100%); }
+.Carta.normal { background: linear-gradient(180deg, #bdbdbd 0%, #9e9e9e 100%); }
+.Carta.poison { background: linear-gradient(180deg, #ab47bc 0%, #8e24aa 100%); }
+.Carta.ground { background: linear-gradient(180deg, #d4a574 0%, #c49450 100%); }
+.Carta.flying { background: linear-gradient(180deg, #a98ff3 0%, #9575cd 100%); }
+.Carta.bug { background: linear-gradient(180deg, #9ccc65 0%, #8bc34a 100%); }
+.Carta.rock { background: linear-gradient(180deg, #bcaaa4 0%, #a1887f 100%); }
+.Carta.ghost { background: linear-gradient(180deg, #7986cb 0%, #5c6bc0 100%); }
+.Carta.dragon { background: linear-gradient(180deg, #7c4dff 0%, #6200ea 100%); }
+.Carta.ice { background: linear-gradient(180deg, #4fc3f7 0%, #29b6f6 100%); }
+
+/* Encabezado mejorado */
+.Encabezado {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Tipos / badges */
-.Tipos{
-  display:flex;
-  gap:6px;
-  margin-top:6px;
-  flex-wrap:wrap;
-}
-.Tipo{
-  padding:4px 8px;
-  border-radius:999px;
-  background: rgba(255,255,255,0.03);
-  font-size:12px;
-  display:flex;
-  align-items:center;
-  gap:6px;
-  color:var(--text);
-}
-.Tipo img{ 
-  width:18px; 
-  height:18px; 
-  object-fit:contain; 
-  display:block; 
+.Carta-Nombre {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
 }
 
-/* Estadísticas */
-.Estadistica{ 
-  font-size:13px; 
-  color:var(--muted); 
-  margin-top:2px; 
-}
-.Ataque, .Defensa, .HP { 
-  color: var(--text); 
-  font-weight:700; 
+.Tipos_HP {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-/* Barra de HP */
-.BarraHp{
-  height:10px;
-  background: rgba(255,255,255,0.06);
-  border-radius:999px;
-  overflow:hidden;
-  margin-top:2px;
-}
-.LlenoHp{
-  height:100%;
-  width:100%;
-  background: linear-gradient(90deg,#16a34a,#22c55e);
-  transition: width .35s ease;
+.HP {
+  background: linear-gradient(135deg, #f44336, #e53935);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px rgba(244, 67, 54, 0.3);
 }
 
-/* Etiqueta de ataque pequeño */
-.c-Ataque { 
-  font-size:14px; 
-  color:var(--accent); 
-  font-weight:600; 
-  margin-top:6px; 
-}
-
-/* ---------- Utilidades (reutilizables) ---------- */
-.Centro { 
-  display:flex; 
-  align-items:center; 
-  justify-content:center; 
-}
-.Mano .Carta { 
-  margin-bottom:4px; 
-}
-.hidden { 
-  display:none !important; 
-}
-.u-muted { 
-  color:var(--muted); 
-}
-
-/* ---------- Accesibilidad / foco keyboard ---------- */
-/* Mejor visibilidad cuando se navega con teclado */
-.Carta[tabindex]:focus { outline-offset: 2px; }
-
-/* ---------- Responsive ---------- */
-@media (max-width:720px){
-  .Arena { grid-template-columns: 1fr; }
-  .Carta { width:120px; }
-  .ControlesFila { flex-direction:column; }
-  .BarraLateral { width:100%; }
-}
-
-/* ---------- Pequeños detalles visuales ---------- */
-.Carga { 
-  display:flex; 
-  align-items:center; 
-  gap:8px; 
-}
-.Mano { 
-  padding:4px 0; 
-}
-
-/* Evitar que las imágenes "salten" */
-img { 
-  max-width:100%; 
-  height:auto; 
-  display:block; 
-}
-
-
-/* --- Colores de los tipos de pokemon ---*/
-
-/* --- Colores oficiales de tipos Pokémon --- */
-/* Basado en Bulbapedia + juegos principales */
-
+/* Tipos mejorados */
 .Tipos {
   display: flex;
-  gap: 6px;
+  gap: 4px;
 }
 
 .Tipo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+} 
+
+/* Iconos por tipo usando SVGs */
+.tipo-grass::before { 
+  content: '';
+  background-image: url('/public/icons/grass.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-fire::before { 
+  content: '';
+  background-image: url('/public/icons/fire.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-water::before { 
+  content: '';
+  background-image: url('/public/icons/water.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-electric::before { 
+  content: '';
+  background-image: url('/public/icons/electric.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-psychic::before { 
+  content: '';
+  background-image: url('/public/icons/psychic.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-fighting::before { 
+  content: '';
+  background-image: url('/public/icons/fighting.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-dark::before { 
+  content: '';
+  background-image: url('/public/icons/dark.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-steel::before { 
+  content: '';
+  background-image: url('/public/icons/steel.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-fairy::before { 
+  content: '';
+  background-image: url('/public/icons/fairy.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-normal::before { 
+  content: '';
+  background-image: url('/public/icons/normal.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-poison::before { 
+  content: '';
+  background-image: url('/public/icons/poison.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-ground::before { 
+  content: '';
+  background-image: url('/public/icons/ground.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-flying::before { 
+  content: '';
+  background-image: url('/public/icons/flying.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-bug::before { 
+  content: '';
+  background-image: url('/public/icons/bug.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-rock::before { 
+  content: '';
+  background-image: url('/public/icons/rock.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-ghost::before { 
+  content: '';
+  background-image: url('/public/icons/ghost.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-dragon::before { 
+  content: '';
+  background-image: url('/public/icons/dragon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.tipo-ice::before { 
+  content: '';
+  background-image: url('/public/icons/ice.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+/* Miniatura mejorada */
+.c-Miniatura {
+  background: white;
+  border-radius: 8px;
+  padding: 8px;
+  height: 120px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 8px;
+}
+
+.c-Miniatura-poke {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.c-Miniatura.no-image {
+  background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+  font-size: 48px;
+  opacity: 0.6;
+}
+
+/* Habilidades mejoradas */
+.Habilidades {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 10px;
+  flex: 1;
+}
+
+.Habilidad {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+}
+
+.Habilidad:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.Habilidad-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.Habilidad-Nombre {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #333;
+}
+
+.Habilidad-Icono {
+  font-size: 12px;
+}
+
+.Habilidad-Dano {
+  font-weight: bold;
+  font-size: 16px;
+  color: #d32f2f;
+  text-shadow: 0 1px 2px rgba(211, 47, 47, 0.3);
+}
+
+.Habilidad-Descripcion {
+  font-size: 11px;
+  color: #666;
+  line-height: 1.3;
+  margin: 0;
+  text-align: left;
+}
+
+/* Pie mejorado */
+.Pie {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 11px;
+}
+
+.Estadistica {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.Debilidades, .Resistencias {
   display: flex;
   align-items: center;
   gap: 4px;
-  padding: 2px 6px;
-  border-radius: 8px;
   font-weight: bold;
-  color: white;
-  font-size: 8px;
 }
 
+.Debilidad, .Resistencia {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.Debilidad {
+  color: #f44336;
+}
+
+.Resistencia {
+  color: #2196f3;
+}
+
+.Descripcion {
+  font-size: 10px;
+  color: #666;
+  line-height: 1.3;
+  margin: 0 0 6px 0;
+  font-style: italic;
+  text-align: left;
+}
+
+.Rareza {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 9px;
+  color: #999;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 4px;
+}
+
+.Rareza-Nivel {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+/* Estados de selección mejorados */
+.Carta.Selecteccion {
+  box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.5), 0 8px 32px rgba(0, 0, 0, 0.25);
+  transform: scale(1.02);
+}
+
+.Carta.Desactivar {
+  opacity: 0.6;
+  pointer-events: none;
+  filter: grayscale(50%);
+}
+
+/* Mejoras al layout principal */
+.Arena {
+  max-width: none;
+  padding: 0;
+}
+
+.Mano {
+  gap: 12px;
+  justify-content: center;
+}
+
+.AreaJugador {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive mejorado */
+@media (max-width: 1200px) {
+  .Carta {
+    width: 200px;
+    min-height: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Arena {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .Carta {
+    width: 180px;
+    min-height: 280px;
+  }
+  
+  .Mano {
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .Carta {
+    width: 160px;
+    min-height: 240px;
+  }
+  
+  .Carta-Nombre {
+    font-size: 14px;
+  }
+  
+  .HP {
+    font-size: 10px;
+    padding: 2px 8px;
+  }
+}
+
+/* Animaciones adicionales */
+@keyframes card-appear {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.Carta {
+  animation: card-appear 0.5s ease-out forwards;
+}
+
+/* Efectos de hover más suaves */
+.Carta::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+  border-radius: 16px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.Carta:hover::before {
+  opacity: 1;
+}
+
+/* Mejora para iconos de tipo si usas imágenes */
 .icono-tipo {
   width: 16px;
   height: 16px;
+  object-fit: contain;
 }
 
-/* Colores oficiales */
-.tipo-fire    { background-color: #EE8130; }
-.tipo-water   { background-color: #6390F0; }
-.tipo-grass   { background-color: #7AC74C; }
-.tipo-electric{ background-color: #F7D02C; color: black; }
-.tipo-ice     { background-color: #96D9D6; color: black; }
-.tipo-fighting{ background-color: #C22E28; }
-.tipo-poison  { background-color: #A33EA1; }
-.tipo-ground  { background-color: #E2BF65; color: black; }
-.tipo-flying  { background-color: #A98FF3; }
-.tipo-psychic { background-color: #F95587; }
-.tipo-bug     { background-color: #A6B91A; }
-.tipo-rock    { background-color: #B6A136; }
-.tipo-ghost   { background-color: #735797; }
-.tipo-dragon  { background-color: #6F35FC; }
-.tipo-dark    { background-color: #705746; }
-.tipo-steel   { background-color: #B7B7CE; color: black; }
-.tipo-fairy   { background-color: #D685AD; }
-.tipo-normal  { background-color: #A8A77A; }
+/* Colores de borde por rareza */
+.Carta.comun { border-color: #9e9e9e; }
+.Carta.poco-comun { border-color: #4caf50; }
+.Carta.raro { border-color: #2196f3; }
+.Carta.epico { border-color: #9c27b0; }
+.Carta.legendario { border-color: #ff9800; }
+.Carta.mitico { border-color: #f44336; }
