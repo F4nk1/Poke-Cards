@@ -366,8 +366,9 @@ export default class UIController {
     turnoJugador() {
         if (this.idxAtacante !== null && this.idxObjetivo !== null) {
             const resultado = this.game.turnoJugador(this.idxAtacante, this.idxObjetivo);
-            this.reiniciarSelecciones();
+            //this.reiniciarSelecciones();
             this.actualizarVista();
+            this.reiniciarSelecciones();
             return resultado;
         }
         return { exito: false, mensaje: 'Selecciona atacante y objetivo.' };
